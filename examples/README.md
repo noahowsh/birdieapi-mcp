@@ -1,6 +1,6 @@
 # BirdieAPI examples
 
-Runnable examples for the [BirdieAPI API](https://birdieapi.com). Python uses only the standard library (`urllib` and `json`). Node uses the built-in `fetch` (Node 18 or newer). No packages to install.
+Runnable examples for the [BirdieAPI](https://birdieapi.com). Python uses only the standard library (`urllib` and `json`). Node uses the built-in `fetch` (Node 18 or newer). No packages to install.
 
 PGA, LPGA, LIV, DP World Tour and Korn Ferry golf data API. Every tool is a REST call: `POST https://mcp.birdieapi.com/v1/<tool_name>` with a JSON body and an `x-api-key` header. The same tools are available over MCP at `https://mcp.birdieapi.com/mcp`.
 
