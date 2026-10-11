@@ -1,0 +1,108 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.noahowsh/birdieapi",
+  "title": "BirdieAPI",
+  "description": "PGA Tour data from 2001: leaderboards, holes, courses, ratings, par-3/4/5 splits, major winner odds.",
+  "version": "1.1.4",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/noahowsh/birdieapi-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://github.com/noahowsh/birdieapi-mcp/raw/main/assets/logo-400x400.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "400x400"
+      ]
+    }
+  ],
+  "homepage": "https://birdieapi.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.birdieapi.com/mcp",
+      "headers": [
+        {
+          "name": "x-api-key",
+          "description": "Your BirdieAPI API key. Get a free key with 500 credits at birdieapi.com/signup",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "list_tournaments",
+      "description": "A season's tournaments with dates, winner, purse and courses",
+      "readOnlyHint": true
+    },
+    {
+      "name": "search_players",
+      "description": "Find players by name",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_schedule",
+      "description": "Tournaments this week and coming up, with the host course",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_leaderboard",
+      "description": "A tournament's full leaderboard: position, rounds, total, earnings and points",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_scorecard",
+      "description": "A player's hole-by-hole scorecard for a tournament, with par and yardage",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_course",
+      "description": "A course as set up for a tournament: par and yards per hole and how each hole played",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_ratings",
+      "description": "Our strokes-versus-field rating: every active player, field-strength adjusted",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player",
+      "description": "Profile, rating, season lines and recent finishes",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player_results",
+      "description": "A player's tournaments and rounds by season, with strokes versus the field",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player_stats",
+      "description": "A player's season stats: scoring, birdies, par-3/4/5 scoring, driving, greens, putting",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_course_history",
+      "description": "A player's record at one tournament or course, every year",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_head_to_head",
+      "description": "Two players' finishes and rounds in every tournament they both played",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_leaders",
+      "description": "Season leaders for any stat we compute or ESPN keeps",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_winner_odds",
+      "description": "The four majors' winner prices by sportsbook before the first round: opening and latest, with implied probability",
+      "readOnlyHint": true
+    }
+  ]
+}
