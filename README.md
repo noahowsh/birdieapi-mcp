@@ -2,7 +2,7 @@
 
 [![Smithery](https://img.shields.io/badge/Smithery-listed-ff5601?style=flat-square)](https://smithery.ai/servers/noahowsh/BirdieAPI) [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-0b7285?style=flat-square)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.noahowsh/birdieapi)
 
-**The golf data API.** PGA Tour leaderboards with finishing positions, earnings and points, round scores and hole-by-hole scorecards, courses with par and yardage per hole, player and course history, our own strokes-versus-field rating, par-3/4/5 scoring splits and the winner prices of the four men's majors by sportsbook. The LPGA, LIV, the DP World Tour and the Korn Ferry Tour use the same tools. REST API and MCP server. 500 free credits, no card.
+**The golf data API.** PGA Tour leaderboards with finishing positions, earnings and points, round scores and hole-by-hole scorecards, courses with par and yardage per hole, player and course history, our own strokes-versus-field rating, par-3/4/5 scoring splits and the winner prices of the four men's majors by sportsbook. The LPGA, LIV, the DP World Tour and the Korn Ferry Tour use the same tools. REST API and MCP server. 500 free credits every month, no card.
 
 Website: https://birdieapi.com · Docs: https://birdieapi.com/docs · Get a key: https://birdieapi.com/signup
 
@@ -16,6 +16,16 @@ Claude: [calls get_course_history]
 You:    "What did sportsbooks price Scottie Scheffler to win the 2025 Masters?"
 Claude: [calls get_winner_odds]
 ```
+
+## Skills
+
+Sixteen free Claude skills in [`skills/`](skills/) turn Claude into a golf analyst on top of these tools: tournament and player lookups, strokes-versus-field ratings, par-3/4/5 and hole-by-hole scoring, course fit, a tournament simulation, odds math for the four majors' outright markets, and the methodology (leak-free features, walk-forward validation, calibration, edge detection, backtesting) to test your own models.
+
+```bash
+git clone https://github.com/noahowsh/birdieapi-mcp.git
+```
+
+Point Claude at the `skills/` folder, connect the MCP server below for live data (500 free credits every month, no card), and ask a question. Start with the `dispatch` skill if you are not sure which one fits. The full catalog is in [`skills/README.md`](skills/README.md).
 
 ## Quick start
 
@@ -98,7 +108,20 @@ Coverage by season, read live from the database: https://birdieapi.com/docs
 
 ## Pricing
 
-500 free credits on signup, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://birdieapi.com/pricing
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://birdieapi.com/pricing
+
+## Useful pages
+
+- Docs: https://birdieapi.com/docs (every endpoint, with a real response)
+- Data atlas, coverage by season: https://birdieapi.com/data
+- Golf majors odds board (winner prices by sportsbook): https://birdieapi.com/odds
+- Major winner odds data: https://birdieapi.com/data/major-winner-odds
+- Hole-by-hole data: https://birdieapi.com/data/pga-tour-hole-by-hole-data
+- Guides (Python, JavaScript and cURL): https://birdieapi.com/guides
+- Glossary (strokes versus the field, field strength, par-type splits): https://birdieapi.com/glossary
+- Pricing: https://birdieapi.com/pricing
+- For bettors and modellers: https://birdieapi.com/for/bettors
+- Compare: [Data Golf API](https://birdieapi.com/compare/data-golf-api), [ESPN's golf JSON](https://birdieapi.com/compare/espn-golf-api), [SportsDataIO](https://birdieapi.com/compare/sportsdataio-golf), [Sportradar](https://birdieapi.com/compare/sportradar-golf)
 
 ## Attribution
 
