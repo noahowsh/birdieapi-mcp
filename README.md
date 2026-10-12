@@ -25,6 +25,15 @@ Sixteen free Claude skills in [`skills/`](skills/) turn Claude into a golf analy
 git clone https://github.com/noahowsh/birdieapi-mcp.git
 ```
 
+Or install them as a Claude Code plugin:
+
+```
+/plugin marketplace add noahowsh/birdieapi-mcp
+/plugin install birdieapi-skills@birdieapi
+```
+
+Or with the skills CLI: `npx skills add noahowsh/birdieapi-mcp`.
+
 Point Claude at the `skills/` folder, connect the MCP server below for live data (500 free credits every month, no card), and ask a question. Start with the `dispatch` skill if you are not sure which one fits. The full catalog is in [`skills/README.md`](skills/README.md).
 
 ## Quick start

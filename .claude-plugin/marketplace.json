@@ -1,0 +1,14 @@
+{
+  "name": "birdieapi",
+  "description": "Golf analytics skills for Claude Code, wired to the BirdieAPI MCP server",
+  "owner": {
+    "name": "BirdieAPI"
+  },
+  "plugins": [
+    {
+      "name": "birdieapi-skills",
+      "source": "./",
+      "description": "16 golf analytics and betting-model skills"
+    }
+  ]
+}
