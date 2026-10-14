@@ -1,0 +1,37 @@
+{
+  "name": "birdieapi-skills",
+  "version": "1.0.0",
+  "description": "16 Claude skills for golf analytics and betting models with BirdieAPI: data lookups, metrics, feature engineering, walk-forward validation, devigging, edge detection and backtests.",
+  "author": {
+    "name": "BirdieAPI",
+    "url": "https://birdieapi.com"
+  },
+  "homepage": "https://birdieapi.com/skills",
+  "repository": "https://github.com/noahowsh/birdieapi-mcp",
+  "license": "MIT",
+  "keywords": [
+    "golf",
+    "pga-tour",
+    "sports-analytics",
+    "sports-betting",
+    "sports-data",
+    "odds",
+    "backtesting",
+    "birdieapi"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "BirdieAPI Skills",
+    "shortDescription": "golf data and betting-model skills",
+    "longDescription": "Skills and a remote MCP server for golf analytics with BirdieAPI: data lookups, metrics, feature engineering, walk-forward validation, devigging, edge detection and backtests.",
+    "developerName": "BirdieAPI",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://birdieapi.com",
+    "privacyPolicyURL": "https://birdieapi.com/privacy",
+    "termsOfServiceURL": "https://birdieapi.com/terms"
+  }
+}

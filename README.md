@@ -139,3 +139,28 @@ Golf data from public ESPN data; major winner prices from The Odds API. Ratings 
 ## License
 
 MIT for the contents of this repository. Data terms as above.
+
+## Use with Codex
+
+Add this repo as a Codex plugin marketplace, then install the plugin:
+
+```bash
+codex plugin marketplace add noahowsh/birdieapi-mcp
+```
+
+Then open the plugin directory in Codex and install `birdieapi-skills` from the `birdieapi` marketplace. The plugin bundles the skills in `skills/` and the BirdieAPI MCP server (https://mcp.birdieapi.com/mcp). Set your key first (free at https://birdieapi.com/signup):
+
+```bash
+export BIRDIEAPI_API_KEY=your_key
+```
+
+Codex sends it as a bearer token.
+
+## Use with Gemini CLI
+
+```bash
+export BIRDIEAPI_API_KEY=your_key
+gemini extensions install https://github.com/noahowsh/birdieapi-mcp
+```
+
+The extension adds the BirdieAPI MCP server (https://mcp.birdieapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://birdieapi.com/signup.

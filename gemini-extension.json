@@ -1,0 +1,14 @@
+{
+  "name": "birdieapi",
+  "version": "1.0.0",
+  "description": "BirdieAPI MCP server for golf data: schedules, results, stats and odds.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "birdieapi": {
+      "httpUrl": "https://mcp.birdieapi.com/mcp",
+      "headers": {
+        "x-api-key": "${BIRDIEAPI_API_KEY}"
+      }
+    }
+  }
+}
