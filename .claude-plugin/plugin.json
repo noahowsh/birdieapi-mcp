@@ -5,7 +5,22 @@
   "author": {
     "name": "BirdieAPI"
   },
-  "homepage": "https://birdieapi.com",
+  "homepage": "https://birdieapi.com/skills",
   "repository": "https://github.com/noahowsh/birdieapi-mcp",
-  "license": "MIT"
+  "license": "MIT",
+  "displayName": "BirdieAPI Skills",
+  "documentationUrl": "https://birdieapi.com/docs",
+  "privacyPolicyUrl": "https://birdieapi.com/privacy",
+  "termsOfServiceUrl": "https://birdieapi.com/terms",
+  "supportUrl": "mailto:support@birdieapi.com",
+  "keywords": [
+    "golf",
+    "pga-tour",
+    "sports-analytics",
+    "sports-betting",
+    "sports-data",
+    "odds",
+    "backtesting",
+    "birdieapi"
+  ]
 }
