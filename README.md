@@ -36,6 +36,27 @@ Or with the skills CLI: `npx skills add noahowsh/birdieapi-mcp`.
 
 Point Claude at the `skills/` folder, connect the MCP server below for live data (500 free credits every month, no card), and ask a question. Start with the `dispatch` skill if you are not sure which one fits. The full catalog is in [`skills/README.md`](skills/README.md).
 
+## Python
+
+The official Python client is on PyPI: [birdieapi](https://pypi.org/project/birdieapi/).
+
+```bash
+pip install birdieapi
+export BIRDIEAPI_API_KEY=sk_live_...
+```
+
+```python
+from birdieapi import Client
+
+client = Client()
+
+events = client.list_tournaments(status="final", limit=3)["tournaments"]
+for e in events:
+    print(e["tournament_id"], e["name"], e["winner_name"], e["winning_to_par"])
+```
+
+Typed errors for a bad key, no credits left, not found and rate limits, automatic retries, and `to_dataframe` for pandas.
+
 ## Quick start
 
 This is a hosted (remote) MCP server over Streamable HTTP. There is nothing to install.
