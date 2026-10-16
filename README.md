@@ -17,6 +17,22 @@ You:    "What did sportsbooks price Scottie Scheffler to win the 2025 Masters?"
 Claude: [calls get_winner_odds]
 ```
 
+
+## Run it locally (stdio)
+
+Most clients connect to `https://mcp.birdieapi.com/mcp` directly. For a client that launches a local process instead:
+
+```bash
+git clone https://github.com/noahowsh/birdieapi-mcp.git && cd birdieapi-mcp && npm install
+BIRDIEAPI_API_KEY=your_key node index.js
+```
+
+```json
+{ "mcpServers": { "birdieapi": { "command": "node", "args": ["/path/to/birdieapi-mcp/index.js"], "env": { "BIRDIEAPI_API_KEY": "your_key" } } } }
+```
+
+It forwards to the hosted server with your key, so every tool and credit cost is the same.
+
 ## Skills
 
 Sixteen free Claude skills in [`skills/`](skills/) turn Claude into a golf analyst on top of these tools: tournament and player lookups, strokes-versus-field ratings, par-3/4/5 and hole-by-hole scoring, course fit, a tournament simulation, odds math for the four majors' outright markets, and the methodology (leak-free features, walk-forward validation, calibration, edge detection, backtesting) to test your own models.

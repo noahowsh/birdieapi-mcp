@@ -1,0 +1,34 @@
+{
+  "name": "birdieapi-mcp",
+  "version": "1.0.0",
+  "description": "PGA Tour data from 2001: leaderboards, holes, courses, ratings, par-3/4/5 splits, major winner odds.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "birdieapi": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "golf",
+    "sports",
+    "api",
+    "odds",
+    "stats"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noahowsh/birdieapi-mcp"
+  },
+  "homepage": "https://birdieapi.com",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  }
+}
