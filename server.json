@@ -3,7 +3,7 @@
   "name": "io.github.noahowsh/birdieapi",
   "title": "BirdieAPI",
   "description": "PGA Tour data from 2001: leaderboards, holes, courses, ratings, par-3/4/5 splits, major winner odds.",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/noahowsh/birdieapi-mcp",

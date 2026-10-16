@@ -1,6 +1,6 @@
 {
   "name": "birdieapi-mcp",
-  "version": "1.0.0",
+  "version": "1.1.6",
   "description": "PGA Tour data from 2001: leaderboards, holes, courses, ratings, par-3/4/5 splits, major winner odds.",
   "type": "module",
   "main": "index.js",
