@@ -175,7 +175,6 @@ Coverage by season, read live from the database: https://birdieapi.com/docs?utm_
 - Glossary (strokes versus the field, field strength, par-type splits): https://birdieapi.com/glossary?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
 - Pricing: https://birdieapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
 - For bettors and modellers: https://birdieapi.com/for/bettors?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
-- Compare: [Data Golf API](https://birdieapi.com/compare/data-golf-api?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp), [ESPN's golf JSON](https://birdieapi.com/compare/espn-golf-api?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp), [SportsDataIO](https://birdieapi.com/compare/sportsdataio-golf?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp), [Sportradar](https://birdieapi.com/compare/sportradar-golf?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp)
 
 ## Attribution
 
