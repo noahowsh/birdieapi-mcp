@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "birdieapi": {
-      "type": "http",
-      "url": "https://mcp.birdieapi.com/mcp"
-    }
-  }
-}

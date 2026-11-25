@@ -35,22 +35,14 @@ It forwards to the hosted server with your key, so every tool and credit cost is
 
 ## Skills
 
-Sixteen free Claude skills in [`skills/`](skills/) turn Claude into a golf analyst on top of these tools: tournament and player lookups, strokes-versus-field ratings, par-3/4/5 and hole-by-hole scoring, course fit, a tournament simulation, odds math for the four majors' outright markets, and the methodology (leak-free features, walk-forward validation, calibration, edge detection, backtesting) to test your own models.
-
-```bash
-git clone https://github.com/noahowsh/birdieapi-mcp.git
-```
-
-Or install them as a Claude Code plugin:
+Claude skills for golf now live in the SportsDataHQ skills marketplace, one plugin per sport, alongside skills for eight more sports: [sports-data-hq/sportsdatahq-skills](https://github.com/sports-data-hq/sportsdatahq-skills).
 
 ```
-/plugin marketplace add noahowsh/birdieapi-mcp
-/plugin install birdieapi-skills@birdieapi
+/plugin marketplace add sports-data-hq/sportsdatahq-skills
+/plugin install golf-data@sportsdatahq
 ```
 
-Or with the skills CLI: `npx skills add noahowsh/birdieapi-mcp`.
-
-Point Claude at the `skills/` folder, connect the MCP server below for live data (500 free credits every month, no card), and ask a question. Start with the `dispatch` skill if you are not sure which one fits. The full catalog is in [`skills/README.md`](skills/README.md).
+The plugin connects the BirdieAPI MCP server; every number comes from a live call.
 
 ## Python
 
@@ -186,19 +178,13 @@ MIT for the contents of this repository. Data terms as above.
 
 ## Use with Codex
 
-Add this repo as a Codex plugin marketplace, then install the plugin:
+The SportsDataHQ skills marketplace also works in Codex (it reads `.agents/plugins/marketplace.json`):
 
 ```bash
-codex plugin marketplace add noahowsh/birdieapi-mcp
+codex plugin marketplace add sports-data-hq/sportsdatahq-skills
 ```
 
-Then open the plugin directory in Codex and install `birdieapi-skills` from the `birdieapi` marketplace. The plugin bundles the skills in `skills/` and the BirdieAPI MCP server (https://mcp.birdieapi.com/mcp). Set your key first (free at https://birdieapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp):
-
-```bash
-export BIRDIEAPI_API_KEY=your_key
-```
-
-Codex sends it as a bearer token.
+Install `golf-data`, which bundles the golf skills and the BirdieAPI MCP server.
 
 ## Use with Gemini CLI
 
