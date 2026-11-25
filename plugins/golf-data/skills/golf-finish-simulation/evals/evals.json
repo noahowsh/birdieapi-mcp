@@ -1,0 +1,53 @@
+{
+  "skill": "golf-finish-simulation",
+  "tasks": [
+    {
+      "prompt": "Simulate the Masters field and give win and top-10 rates",
+      "expect": [
+        "get_ratings and get_leaderboard (or supplied field) called",
+        "round spread computed from get_player_results",
+        "code actually run, seed and run count stated",
+        "standard error shown, no invented probabilities"
+      ]
+    },
+    {
+      "prompt": "What are Scheffler's chances of making the cut this week?",
+      "expect": [
+        "cut rule stated",
+        "simulation output reported with error"
+      ]
+    },
+    {
+      "prompt": "Simulate a tournament but get_player_results returns nothing",
+      "expect": [
+        "stops with not enough data instead of assuming a spread"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "who is most likely to win the Masters",
+      "simulate the tournament",
+      "chance he finishes top 10",
+      "odds of making the cut by rating",
+      "how likely is a first-time winner",
+      "run the field a thousand times",
+      "win probability for each player by rating",
+      "how often does the favourite win a golf event",
+      "Monte Carlo of the PGA Championship",
+      "top 5 chance for McIlroy this week"
+    ],
+    "should_not": [
+      "preview the Masters field",
+      "Scheffler strokes gained trend",
+      "how has Rory done at Augusta",
+      "what happened in the final round",
+      "who leads the tournament",
+      "build a golf rating model",
+      "tennis tournament simulation",
+      "best bet to win the Open",
+      "golf course yardage",
+      "explain the cut rule"
+    ]
+  }
+}

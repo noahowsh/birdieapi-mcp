@@ -1,0 +1,32 @@
+{
+  "name": "birdieapi",
+  "interface": {
+    "displayName": "SportsDataHQ skills"
+  },
+  "plugins": [
+    {
+      "name": "sports-analytics-core",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sports-analytics-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "golf-data",
+      "source": {
+        "source": "local",
+        "path": "./plugins/golf-data"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

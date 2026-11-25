@@ -1,0 +1,55 @@
+{
+  "skill": "golf-strokes-vs-field",
+  "tasks": [
+    {
+      "prompt": "How is Scheffler really playing this season?",
+      "expect": [
+        "get_player_stats and get_player_results called",
+        "adjusted strokes vs field with rounds counted",
+        "no shot-level strokes gained"
+      ]
+    },
+    {
+      "prompt": "Who is best on par 5s on the PGA Tour?",
+      "expect": [
+        "get_leaders with stat sg_par5",
+        "minimum rounds stated",
+        "noted as score-based, PGA and Korn Ferry only"
+      ]
+    },
+    {
+      "prompt": "Strokes gained putting for Rory",
+      "expect": [
+        "states shot-level strokes gained are not in the data",
+        "offers score-based alternatives",
+        "no invented putting number"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "who is playing best",
+      "strokes gained for Scheffler",
+      "is he good on par 5s",
+      "rank the field by scoring versus the field",
+      "is his form real",
+      "how does he score on par 3s",
+      "adjusted strokes versus the field leaders",
+      "how has Rory been scoring lately",
+      "birdies per round leaders",
+      "is McIlroy's scoring average good this year"
+    ],
+    "should_not": [
+      "preview this week's tournament",
+      "Scheffler's record at Augusta",
+      "Masters winner odds",
+      "strokes gained approach for Rory",
+      "LPGA schedule",
+      "tennis surface splits",
+      "NHL player stats",
+      "build a golf rating model",
+      "who won last week",
+      "course layout and hole yardages"
+    ]
+  }
+}

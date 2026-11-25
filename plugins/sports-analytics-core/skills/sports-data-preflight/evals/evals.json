@@ -1,0 +1,12 @@
+{
+  "skill": "sports-data-preflight",
+  "tasks": [
+    {"prompt": "Compare Connor McDavid's points per game this season to last season", "expect": ["search_players called before any stats call", "season ids stated as 8-digit NHL seasons", "games played shown beside each rate"]},
+    {"prompt": "How has the Ravens' offense trended over the last 5 games?", "expect": ["season convention stated (year the season starts)", "sample size 5 games flagged as small", "each number cites its tool"]},
+    {"prompt": "Average goals in Ligue 1 and the Premier League last season combined", "expect": ["refuses to blend leagues into one average or reports them separately", "league passed explicitly", "season 2025 means 2025-26 stated"]}
+  ],
+  "triggers": {
+    "should": ["compare these two players over their careers", "how has Josh Allen trended this season", "is Jokic better this year than last", "last 10 games for the Sabres", "Shohei Ohtani's stats since 2023", "average xG for Arsenal across seasons", "how many games did he play", "which Smith is the Chiefs receiver", "trend in Djokovic's clay results", "has scoring gone up over the past 3 seasons"],
+    "should_not": ["what time is the Bills game", "show me tonight's NHL odds", "build me an xG model", "explain what EPA is", "who won the Masters in 2024", "list all NFL teams", "what does PPDA mean", "make a chart of this data", "write a Python function to sort a list", "translate this to Spanish"]
+  }
+}

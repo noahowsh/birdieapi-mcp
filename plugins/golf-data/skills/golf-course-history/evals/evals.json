@@ -1,0 +1,55 @@
+{
+  "skill": "golf-course-history",
+  "tasks": [
+    {
+      "prompt": "How has Scheffler done at Augusta National?",
+      "expect": [
+        "get_course_history called",
+        "finishes with starts and rounds counted",
+        "current form shown beside it"
+      ]
+    },
+    {
+      "prompt": "Does Hovland play well at Pebble Beach?",
+      "expect": [
+        "strokes vs field here versus his season level",
+        "history flagged thin if under 3 starts",
+        "form first"
+      ]
+    },
+    {
+      "prompt": "Who has the best record at Riviera?",
+      "expect": [
+        "states the call is per player and asks which names, or compares a stated list",
+        "no invented rankings",
+        "rounds counted"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "how has Scheffler done at Augusta",
+      "does he play well at Pebble",
+      "course history for the Open",
+      "best record at Riviera",
+      "does he like this course",
+      "past finishes at the Players",
+      "how many cuts has he made at Torrey Pines",
+      "his record at this event",
+      "does Rory have a good history at the Masters",
+      "what has he shot here before"
+    ],
+    "should_not": [
+      "preview this week's PGA event",
+      "who is playing best right now",
+      "Masters winner prices",
+      "how did the hole 12 play",
+      "strokes gained putting",
+      "LIV standings",
+      "football stadium history",
+      "NBA player home court record",
+      "build a course-fit model",
+      "the leaderboard after round 2"
+    ]
+  }
+}

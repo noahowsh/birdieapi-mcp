@@ -1,0 +1,18 @@
+{
+  "name": "birdieapi",
+  "owner": {
+    "name": "SportsDataHQ"
+  },
+  "plugins": [
+    {
+      "name": "sports-analytics-core",
+      "source": "./plugins/sports-analytics-core",
+      "description": "Sport-agnostic skills: model building, feature engineering, backtesting, walk-forward validation, calibration, Elo, visualization, data pipelines, and comparing a model with the market as information."
+    },
+    {
+      "name": "golf-data",
+      "source": "./plugins/golf-data",
+      "description": "Golf analysis skills on BirdieAPI: game previews, player and team research, and the community's standard metrics, with every number pulled live from the BirdieAPI MCP server."
+    }
+  ]
+}

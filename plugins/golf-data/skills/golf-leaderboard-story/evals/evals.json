@@ -1,0 +1,54 @@
+{
+  "skill": "golf-leaderboard-story",
+  "tasks": [
+    {
+      "prompt": "Recap the PGA Championship",
+      "expect": [
+        "list_tournaments to find the id, then get_leaderboard",
+        "round by round with strokes versus the field",
+        "playoff mentioned only if returned"
+      ]
+    },
+    {
+      "prompt": "Where did the 54-hole leader lose it?",
+      "expect": [
+        "get_scorecard for the leader",
+        "holes with the result and par",
+        "no causes beyond the data"
+      ]
+    },
+    {
+      "prompt": "Recap a DP World Tour event hole by hole",
+      "expect": [
+        "says hole detail is not held for that tour",
+        "falls back to round scores"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "what happened at the Open",
+      "how did he win",
+      "who made the move on Sunday",
+      "recap the PGA Championship",
+      "where did he lose the tournament",
+      "why did the leader fall back",
+      "walk me through the final round",
+      "who shot the low round",
+      "what happened on the back nine",
+      "how did Scheffler win the Masters"
+    ],
+    "should_not": [
+      "who will win the Masters",
+      "simulate the tournament",
+      "preview this week's field",
+      "Scheffler form over the last year",
+      "Rory at Augusta history",
+      "best bet for the Open",
+      "explain strokes gained",
+      "NFL game recap",
+      "what does the leaderboard abbreviation T5 mean",
+      "golf course layout of Pebble Beach"
+    ]
+  }
+}
