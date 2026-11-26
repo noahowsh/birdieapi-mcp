@@ -250,3 +250,7 @@ Next: probability-calibration to verify probability outputs
 | Model doesn't beat baselines | More features needed or different architecture | `feature-engineering` + return here |
 | Want to build xG model specifically | Different methodology, shot-level data | `nhl-xg-model` |
 | Need to add Elo as a feature | Build Elo ratings first | `elo-engineering` |
+
+## Credits
+
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

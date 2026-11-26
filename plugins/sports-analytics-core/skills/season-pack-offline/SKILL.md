@@ -43,3 +43,4 @@ Files are named `<api>-<league>-<season>-<kind>.csv`, where kind is games, stand
 - Credit in anything the user will publish: "Data: <API name> (<site>)".
 - Don't help redistribute the files themselves (the pack licence forbids it). Analysis, charts and models built on them are fine.
 - Odds are not in the pack. Don't estimate or invent them.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

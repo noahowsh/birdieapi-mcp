@@ -13,12 +13,12 @@ Course history is the most overused number in golf talk. This skill reports a pl
 ## Before you start
 - For anything across games, seasons or players, apply the sports-data-preflight checks first (ids from search, the season convention, one league, enough data).
 - Tools come from the BirdieAPI MCP server (`https://mcp.birdieapi.com/mcp`). Call them; never fill in a number from memory.
-- Player ids from `search_players(name)` (1 cr); ids are the same on every tour. The PGA Tour is the default; pass `league` for lpga, liv, dpwt or kornferry. PGA Tour seasons from 2014 to 2024 began the October before (the 2015 season opened in October 2014).
+- Player ids from `search_players(query)` (1 cr); ids are the same on every tour. The PGA Tour is the default; pass `league` for lpga, liv, dpwt or kornferry. PGA Tour seasons from 2014 to 2024 began the October before (the 2015 season opened in October 2014).
 - Course history can be pulled by tournament (any edition's id returns every edition) or by course (every tournament played there). A tournament on more than one course records which course each round was played on.
 - Courses and renovations change; say when the course or its set-up changed in the window. Coverage is thin for parts of the LPGA and DP World Tour.
 
 ## Default path (about 15 credits per player)
-1. **Resolve ids.** `search_players(name)` (1 cr); the tournament id from `list_tournaments(season)` (1 cr) or `get_schedule` (1 cr).
+1. **Resolve ids.** `search_players(query)` (1 cr); the tournament id from `list_tournaments(season)` (1 cr) or `get_schedule` (1 cr).
 2. **The record.** `get_course_history(player_id, tournament_id or course_id)` (5 cr): finishes, rounds and strokes versus the field by year, with a summary.
 3. **Current form.** `get_player_results(player_id, season, limit: 10)` (5 cr) for the latest starts, and `get_ratings()` (2 cr) for our decay-weighted rating.
 4. **The course (optional).** `get_course(tournament_id)` (2 cr): how each hole played, to say what the course asks for.
@@ -43,6 +43,7 @@ Data: search_players, get_course_history, get_player_results, get_ratings | <tou
 - Every number names its tool (the Data line, plus inline where it could be doubted) and every rate shows its sample size.
 - If a tool returns too little, say "not enough data" and stop; do not estimate or borrow another sample.
 - Odds and prices are information about the market only: no picks, leans, stakes, payouts or sportsbook links.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
 
 ## Example prompts
 - "How has Scheffler done at Augusta?"

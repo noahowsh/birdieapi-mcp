@@ -210,3 +210,7 @@ Built with SportsDataHQ Skills
 | Matchup card ready, want to compare with the market | Compute the model vs market gap | `market-vs-model` |
 | Player card generated, evaluating a trade | Full WAR/GAR component breakdown | `nhl-war-gar` |
 | Chart needs underlying data refresh | Pull current stats | `nhl-team-analysis`, `nhl-game-preview`, `nhl-goalie-analysis` |
+
+## Credits
+
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

@@ -112,3 +112,7 @@ Largest gaps: [list]
 | Want to log predictions and grade them | `prediction-tracker` |
 | Want historical validation | `backtesting` or `walk-forward-validation` |
 | Hockey slate view | `nhl-daily-slate` |
+
+## Credits
+
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

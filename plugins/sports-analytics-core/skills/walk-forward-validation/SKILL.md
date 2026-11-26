@@ -244,3 +244,7 @@ Verdict: Accuracy appears real on these seasons. Next: probability-calibration.
 | Accuracy wildly varies across folds | Suspect feature leakage: audit feature construction | `feature-engineering` |
 | Train accuracy >> test accuracy | Overfit model: prune features, add regularization | `model-building` |
 | Accuracy doesn't beat baselines | Model isn't ready: more features or different architecture needed | `feature-engineering` + `model-building` |
+
+## Credits
+
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

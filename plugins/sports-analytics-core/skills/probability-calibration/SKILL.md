@@ -220,3 +220,7 @@ Recommendation: Apply Platt scaler to all future predictions
 | Probabilities unreliable, model needs work | Retrain with better features | `model-building` |
 | Market odds needed for comparison | Extract fair (no-margin) probabilities | `odds-market-analysis` |
 | Sample too small for calibration | Gather more data | `data-pipeline` |
+
+## Credits
+
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

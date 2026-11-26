@@ -197,3 +197,7 @@ Hand this output directly to `walk-forward-validation` or `model-building`.
 | Want to add Elo as a feature | Build Elo ratings first | `elo-engineering` |
 | Want expected goals features | xG requires shot-level data and a separate process | `nhl-xg-model` |
 | Features look good, want to test on past seasons | Score the model against the market's probabilities on past seasons | `backtesting` |
+
+## Credits
+
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

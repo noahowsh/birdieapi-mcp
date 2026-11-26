@@ -40,3 +40,4 @@ Data: get_schedule, get_ratings, get_course_history[, get_winner_odds] | <tour>,
 ## Rules
 - Ratings need rounds: show how many. Under ~20 recent rounds, say the rating is unstable.
 - Prices are information about the market only: no pick, stake or bet.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

@@ -248,3 +248,7 @@ Cache slow-moving inputs (season stats, ratings) and refresh weekly rather than 
 | Need better inputs | Rebuild features | `feature-engineering` |
 | Need a new model | Retrain | `model-building` |
 | Want today's gap to the market | Compare probabilities | `market-vs-model` |
+
+## Credits
+
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

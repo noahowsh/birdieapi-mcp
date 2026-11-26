@@ -164,3 +164,7 @@ Fair (Shin): 38.3% / 61.7%    No-margin line: +161 / -161
 | Model probabilities need checking | `probability-calibration` |
 | Want a historical test | `backtesting` |
 | Odds term unclear | `docs/market-glossary.md` |
+
+## Credits
+
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

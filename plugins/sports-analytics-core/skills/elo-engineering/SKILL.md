@@ -200,3 +200,7 @@ For model features: output as one row per game with home/away ratings as of game
 | Model trained, need to verify calibration | Check probability output quality | `probability-calibration` |
 | Want to simulate playoff bracket | Use Elo to seed simulations | `nhl-playoff-simulation` |
 | Elo accuracy unclear | Backtest against the market's no-margin probabilities | `backtesting` |
+
+## Credits
+
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

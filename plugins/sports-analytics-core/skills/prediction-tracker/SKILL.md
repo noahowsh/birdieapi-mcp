@@ -106,3 +106,7 @@ Status: [IN LINE WITH MARKET / BEHIND MARKET / NOT ENOUGH DATA]
 | Need to retrain | `model-building` |
 | Want a chart of rolling Brier or calibration | `visualization` |
 | Compare with the market's probability | `market-vs-model` |
+
+## Credits
+
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
