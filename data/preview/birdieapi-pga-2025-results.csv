@@ -1,0 +1,101 @@
+league,season,tournament,date,position,position_display,player,country,status,to_par,total_strokes,rounds_played,earnings,cup_points
+pga,2025,The Sentry,2025-01-05,1,1,Hideki Matsuyama,Japan,finished,-35,257,4,3600000,700
+pga,2025,The Sentry,2025-01-05,2,2,Collin Morikawa,USA,finished,-32,260,4,2160000,400
+pga,2025,The Sentry,2025-01-05,3,3,Sungjae Im,South Korea,finished,-29,263,4,1360000,350
+pga,2025,The Sentry,2025-01-05,4,4,Jhonattan Vegas,Venezuela,finished,-25,267,4,975000,325
+pga,2025,The Sentry,2025-01-05,5,T5,Ludvig Åberg,Sweden,finished,-24,268,4,744167,267
+pga,2025,The Sentry,2025-01-05,5,T5,Corey Conners,Canada,finished,-24,268,4,744167,267
+pga,2025,The Sentry,2025-01-05,5,T5,Thomas Detry,Belgium,finished,-24,268,4,744167,267
+pga,2025,The Sentry,2025-01-05,8,T8,Sam Burns,USA,finished,-23,269,4,550000,155
+pga,2025,The Sentry,2025-01-05,8,T8,Cameron Young,USA,finished,-23,269,4,550000,155
+pga,2025,The Sentry,2025-01-05,8,T8,Maverick McNealy,USA,finished,-23,269,4,550000,155
+pga,2025,The Sentry,2025-01-05,8,T8,Tom Hoge,USA,finished,-23,269,4,550000,155
+pga,2025,The Sentry,2025-01-05,8,T8,Harry Hall,England,finished,-23,269,4,550000,155
+pga,2025,The Sentry,2025-01-05,13,T13,Taylor Pendrith,Canada,finished,-22,270,4,410000,105
+pga,2025,The Sentry,2025-01-05,13,T13,Cam Davis,Australia,finished,-22,270,4,410000,105
+pga,2025,The Sentry,2025-01-05,15,T15,Aaron Rai,England,finished,-21,271,4,292000,63
+pga,2025,The Sentry,2025-01-05,15,T15,Robert MacIntyre,Scotland,finished,-21,271,4,292000,63
+pga,2025,The Sentry,2025-01-05,15,T15,Austin Eckroat,USA,finished,-21,271,4,292000,63
+pga,2025,The Sentry,2025-01-05,15,T15,Patrick Cantlay,USA,finished,-21,271,4,292000,63
+pga,2025,The Sentry,2025-01-05,15,T15,Keegan Bradley,USA,finished,-21,271,4,292000,63
+pga,2025,The Sentry,2025-01-05,15,T15,Tony Finau,USA,finished,-21,271,4,292000,63
+pga,2025,The Sentry,2025-01-05,15,T15,Wyndham Clark,USA,finished,-21,271,4,292000,63
+pga,2025,The Sentry,2025-01-05,15,T15,Adam Scott,Australia,finished,-21,271,4,292000,63
+pga,2025,The Sentry,2025-01-05,15,T15,Sepp Straka,Austria,finished,-21,271,4,292000,63
+pga,2025,The Sentry,2025-01-05,24,T24,Matt Fitzpatrick,England,finished,-20,272,4,196000,43
+pga,2025,The Sentry,2025-01-05,24,T24,Max Greyserman,USA,finished,-20,272,4,196000,43
+pga,2025,The Sentry,2025-01-05,26,T26,Justin Thomas,USA,finished,-19,273,4,163333,38
+pga,2025,The Sentry,2025-01-05,26,T26,Max Homa,USA,finished,-19,273,4,163333,38
+pga,2025,The Sentry,2025-01-05,26,T26,Will Zalatoris,USA,finished,-19,273,4,163333,38
+pga,2025,The Sentry,2025-01-05,29,29,Adam Hadwin,Canada,finished,-18,274,4,148000,34
+pga,2025,The Sentry,2025-01-05,30,T30,Xander Schauffele,USA,finished,-17,275,4,137500,32
+pga,2025,The Sentry,2025-01-05,30,T30,Russell Henley,USA,finished,-17,275,4,137500,32
+pga,2025,The Sentry,2025-01-05,32,T32,Akshay Bhatia,USA,finished,-16,276,4,118000,27
+pga,2025,The Sentry,2025-01-05,32,T32,Si Woo Kim,South Korea,finished,-16,276,4,118000,27
+pga,2025,The Sentry,2025-01-05,32,T32,Byeong Hun An,South Korea,finished,-16,276,4,118000,27
+pga,2025,The Sentry,2025-01-05,32,T32,Nico Echavarria,Colombia,finished,-16,276,4,118000,27
+pga,2025,The Sentry,2025-01-05,36,T36,Sahith Theegala,USA,finished,-15,277,4,97750,23
+pga,2025,The Sentry,2025-01-05,36,T36,Davis Thompson,USA,finished,-15,277,4,97750,23
+pga,2025,The Sentry,2025-01-05,36,T36,Stephan Jaeger,Germany,finished,-15,277,4,97750,23
+pga,2025,The Sentry,2025-01-05,36,T36,Viktor Hovland,Norway,finished,-15,277,4,97750,23
+pga,2025,The Sentry,2025-01-05,40,T40,J.T. Poston,USA,finished,-14,278,4,81000,19
+pga,2025,The Sentry,2025-01-05,40,T40,Jason Day,Australia,finished,-14,278,4,81000,19
+pga,2025,The Sentry,2025-01-05,40,T40,Christiaan Bezuidenhout,South Africa,finished,-14,278,4,81000,19
+pga,2025,The Sentry,2025-01-05,40,T40,Patton Kizzire,USA,finished,-14,278,4,81000,19
+pga,2025,The Sentry,2025-01-05,44,T44,Kevin Yu,Chinese Taipei,finished,-13,279,4,69000,17
+pga,2025,The Sentry,2025-01-05,44,T44,Chris Kirk,USA,finished,-13,279,4,69000,17
+pga,2025,The Sentry,2025-01-05,46,T46,Chris Gotterup,USA,finished,-12,280,4,62000,15
+pga,2025,The Sentry,2025-01-05,46,T46,Denny McCarthy,USA,finished,-12,280,4,62000,15
+pga,2025,The Sentry,2025-01-05,48,T48,Matthieu Pavon,France,finished,-11,281,4,57000,14
+pga,2025,The Sentry,2025-01-05,48,T48,Nick Taylor,Canada,finished,-11,281,4,57000,14
+pga,2025,The Sentry,2025-01-05,48,T48,Brice Garnett,USA,finished,-11,281,4,57000,14
+pga,2025,The Sentry,2025-01-05,51,51,Billy Horschel,USA,finished,-10,282,4,54000,13
+pga,2025,The Sentry,2025-01-05,52,52,Eric Cole,USA,finished,-9,283,4,53000,12
+pga,2025,The Sentry,2025-01-05,53,T53,Matt McCarty,USA,finished,-8,284,4,51500,11
+pga,2025,The Sentry,2025-01-05,53,T53,Peter Malnati,USA,finished,-8,284,4,51500,11
+pga,2025,The Sentry,2025-01-05,55,55,Nick Dunlap,USA,finished,-7,285,4,50000,11
+pga,2025,The Sentry,2025-01-05,56,56,Jake Knapp,USA,finished,-6,286,4,49500,10
+pga,2025,The Sentry,2025-01-05,57,57,Rafael Campos,Puerto Rico,finished,-4,288,4,49000,10
+pga,2025,The Sentry,2025-01-05,58,58,Brian Harman,USA,finished,-3,289,4,48500,9
+pga,2025,The Sentry,2025-01-05,,WD,Davis Riley,USA,wd,9,265,4,0,0
+pga,2025,Sony Open in Hawaii,2025-01-12,1,1,Nick Taylor,Canada,finished,-16,264,4,1566000,500
+pga,2025,Sony Open in Hawaii,2025-01-12,2,2,Nico Echavarria,Colombia,finished,-16,264,4,948300,300
+pga,2025,Sony Open in Hawaii,2025-01-12,3,T3,Stephan Jaeger,Germany,finished,-15,265,4,513300,163
+pga,2025,Sony Open in Hawaii,2025-01-12,3,T3,J.J. Spaun,USA,finished,-15,265,4,513300,163
+pga,2025,Sony Open in Hawaii,2025-01-12,5,5,Eric Cole,USA,finished,-14,266,4,356700,110
+pga,2025,Sony Open in Hawaii,2025-01-12,6,T6,Jackson Suber,USA,finished,-13,267,4,283838,89
+pga,2025,Sony Open in Hawaii,2025-01-12,6,T6,Adam Schenk,USA,finished,-13,267,4,283838,89
+pga,2025,Sony Open in Hawaii,2025-01-12,6,T6,Keegan Bradley,USA,finished,-13,267,4,283838,89
+pga,2025,Sony Open in Hawaii,2025-01-12,6,T6,Patrick Fishburn,USA,finished,-13,267,4,283838,89
+pga,2025,Sony Open in Hawaii,2025-01-12,10,T10,Nick Dunlap,USA,finished,-12,268,4,195025,64
+pga,2025,Sony Open in Hawaii,2025-01-12,10,T10,Jesper Svensson,Sweden,finished,-12,268,4,195025,64
+pga,2025,Sony Open in Hawaii,2025-01-12,10,T10,Paul Peterson,USA,finished,-12,268,4,195025,64
+pga,2025,Sony Open in Hawaii,2025-01-12,10,T10,Russell Henley,USA,finished,-12,268,4,195025,64
+pga,2025,Sony Open in Hawaii,2025-01-12,10,T10,Harry Hall,England,finished,-12,268,4,195025,64
+pga,2025,Sony Open in Hawaii,2025-01-12,10,T10,Lee Hodges,USA,finished,-12,268,4,195025,64
+pga,2025,Sony Open in Hawaii,2025-01-12,16,T16,Hideki Matsuyama,Japan,finished,-11,269,4,132675,49
+pga,2025,Sony Open in Hawaii,2025-01-12,16,T16,Webb Simpson,USA,finished,-11,269,4,132675,49
+pga,2025,Sony Open in Hawaii,2025-01-12,16,T16,Alex Smalley,USA,finished,-11,269,4,132675,49
+pga,2025,Sony Open in Hawaii,2025-01-12,16,T16,Denny McCarthy,USA,finished,-11,269,4,132675,49
+pga,2025,Sony Open in Hawaii,2025-01-12,16,T16,Gary Woodland,USA,finished,-11,269,4,132675,49
+pga,2025,Sony Open in Hawaii,2025-01-12,21,T21,Mark Hubbard,USA,finished,-10,270,4,80088,36
+pga,2025,Sony Open in Hawaii,2025-01-12,21,T21,Sam Ryder,USA,finished,-10,270,4,80088,36
+pga,2025,Sony Open in Hawaii,2025-01-12,21,T21,C.T. Pan,Chinese Taipei,finished,-10,270,4,80088,36
+pga,2025,Sony Open in Hawaii,2025-01-12,21,T21,Matt Kuchar,USA,finished,-10,270,4,80088,36
+pga,2025,Sony Open in Hawaii,2025-01-12,21,T21,Mac Meissner,USA,finished,-10,270,4,80088,36
+pga,2025,Sony Open in Hawaii,2025-01-12,21,T21,Zach Johnson,USA,finished,-10,270,4,80088,36
+pga,2025,Sony Open in Hawaii,2025-01-12,21,T21,Kensei Hirata,Japan,finished,-10,270,4,80088,0
+pga,2025,Sony Open in Hawaii,2025-01-12,21,T21,Lucas Glover,USA,finished,-10,270,4,80088,36
+pga,2025,Sony Open in Hawaii,2025-01-12,21,T21,Brian Harman,USA,finished,-10,270,4,80088,36
+pga,2025,Sony Open in Hawaii,2025-01-12,30,T30,Keith Mitchell,USA,finished,-9,271,4,52138,24
+pga,2025,Sony Open in Hawaii,2025-01-12,30,T30,Erik van Rooyen,South Africa,finished,-9,271,4,52138,24
+pga,2025,Sony Open in Hawaii,2025-01-12,30,T30,Adam Svensson,Canada,finished,-9,271,4,52138,24
+pga,2025,Sony Open in Hawaii,2025-01-12,30,T30,Brice Garnett,USA,finished,-9,271,4,52138,24
+pga,2025,Sony Open in Hawaii,2025-01-12,30,T30,Sepp Straka,Austria,finished,-9,271,4,52138,24
+pga,2025,Sony Open in Hawaii,2025-01-12,30,T30,Andrew Putnam,USA,finished,-9,271,4,52138,24
+pga,2025,Sony Open in Hawaii,2025-01-12,30,T30,Bud Cauley,USA,finished,-9,271,4,52138,24
+pga,2025,Sony Open in Hawaii,2025-01-12,37,T37,James Hahn,USA,finished,-8,272,4,36975,16
+pga,2025,Sony Open in Hawaii,2025-01-12,37,T37,Henrik Norlander,Sweden,finished,-8,272,4,36975,16
+pga,2025,Sony Open in Hawaii,2025-01-12,37,T37,Kurt Kitayama,USA,finished,-8,272,4,36975,16
+pga,2025,Sony Open in Hawaii,2025-01-12,37,T37,Sahith Theegala,USA,finished,-8,272,4,36975,16
+pga,2025,Sony Open in Hawaii,2025-01-12,37,T37,Vincent Norrman,Sweden,finished,-8,272,4,36975,16

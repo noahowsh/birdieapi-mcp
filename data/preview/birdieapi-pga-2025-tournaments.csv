@@ -1,0 +1,49 @@
+league,season,name,start_date,end_date,major,scoring_system,rounds_scheduled,cut_score,purse,field_size,course,winner,playoff
+pga,2025,The Sentry,2025-01-02,2025-01-05,f,Medal,4,,2e+07,59,Kapalua Resort (Plantation Course),Hideki Matsuyama,f
+pga,2025,Sony Open in Hawaii,2025-01-09,2025-01-12,f,Medal,4,-3,8.7e+06,143,Waialae Country Club,Nick Taylor,t
+pga,2025,The American Express,2025-01-16,2025-01-19,f,Medal,4,-9,8.8e+06,156,Pete Dye Stadium Course,Sepp Straka,f
+pga,2025,Farmers Insurance Open,2025-01-22,2025-01-25,f,Medal,4,1,9.3e+06,155,Torrey Pines (South Course),Harris English,f
+pga,2025,AT&T Pebble Beach Pro-Am,2025-01-30,2025-02-02,f,Medal,4,,2e+07,80,Pebble Beach Golf Links,Rory McIlroy,f
+pga,2025,WM Phoenix Open,2025-02-06,2025-02-09,f,Medal,4,-2,9.2e+06,132,TPC Scottsdale (Stadium Course),Thomas Detry,f
+pga,2025,The Genesis Invitational,2025-02-13,2025-02-16,f,Medal,4,4,2e+07,72,Torrey Pines (South Course),Ludvig Åberg,f
+pga,2025,Mexico Open at VidantaWorld,2025-02-20,2025-02-23,f,Medal,4,-3,7e+06,132,Vidanta Vallarta,Brian Campbell,t
+pga,2025,Cognizant Classic in The Palm Beaches,2025-02-27,2025-03-02,f,Medal,4,-5,9.2e+06,144,PGA National Resort (The Champion Course),Joe Highsmith,f
+pga,2025,Arnold Palmer Invitational pres. by Mastercard,2025-03-06,2025-03-09,f,Medal,4,4,2e+07,72,Arnold Palmer's Bay Hill Club & Lodge,Russell Henley,f
+pga,2025,Puerto Rico Open,2025-03-06,2025-03-09,f,Medal,4,-5,4e+06,132,Grand Reserve Golf Club,Karl Vilips,f
+pga,2025,THE PLAYERS Championship,2025-03-13,2025-03-17,f,Medal,4,-1,2.5e+07,144,TPC Sawgrass (THE PLAYERS Stadium Course),Rory McIlroy,t
+pga,2025,Valspar Championship,2025-03-20,2025-03-23,f,Medal,4,2,8.7e+06,154,Innisbrook Resort and Golf Club (Copperhead Course),Viktor Hovland,f
+pga,2025,Texas Children's Houston Open,2025-03-27,2025-03-30,f,Medal,4,-3,9.5e+06,153,Memorial Park Golf Course,Min Woo Lee,f
+pga,2025,Valero Texas Open,2025-04-03,2025-04-06,f,Medal,4,-2,9.5e+06,144,TPC San Antonio (Oaks Course),Brian Harman,f
+pga,2025,Masters Tournament,2025-04-10,2025-04-13,t,Medal,4,2,2.1e+07,95,Augusta National Golf Club,Rory McIlroy,t
+pga,2025,Corales Puntacana Championship,2025-04-17,2025-04-20,f,Medal,4,-3,4e+06,132,Puntacana Resort & Club (Corales Golf Course),Garrick Higgo,f
+pga,2025,RBC Heritage,2025-04-17,2025-04-20,f,Medal,4,,2e+07,72,Harbour Town Golf Links,Justin Thomas,t
+pga,2025,Zurich Classic of New Orleans,2025-04-24,2025-04-27,f,Teamstroke,4,-10,9.2e+06,80,TPC Louisiana,,f
+pga,2025,THE CJ CUP Byron Nelson,2025-05-01,2025-05-04,f,Medal,4,-5,9.9e+06,156,TPC Craig Ranch,Scottie Scheffler,f
+pga,2025,ONEflight Myrtle Beach Classic,2025-05-08,2025-05-11,f,Medal,4,-2,4e+06,132,Dunes Golf & Beach Club,Ryan Fox,t
+pga,2025,Truist Championship,2025-05-08,2025-05-11,f,Medal,4,,2e+07,72,The Philadelphia Cricket Club (Wissahickon Course),Sepp Straka,f
+pga,2025,PGA Championship,2025-05-15,2025-05-18,t,Medal,4,1,1.9e+07,156,Quail Hollow Club,Scottie Scheffler,f
+pga,2025,Charles Schwab Challenge,2025-05-22,2025-05-25,f,Medal,4,0,9.5e+06,135,Colonial Country Club,Ben Griffin,f
+pga,2025,the Memorial Tournament pres. by Workday,2025-05-29,2025-06-01,f,Medal,4,5,2e+07,72,Muirfield Village Golf Club,Scottie Scheffler,f
+pga,2025,RBC Canadian Open,2025-06-05,2025-06-08,f,Medal,4,-3,9.8e+06,156,TPC Toronto at Osprey Valley (North Course),Ryan Fox,t
+pga,2025,U.S. Open,2025-06-12,2025-06-15,t,Medal,4,7,2.15e+07,156,Oakmont Country Club,J.J. Spaun,f
+pga,2025,Travelers Championship,2025-06-19,2025-06-22,f,Medal,4,,2e+07,72,TPC River Highlands,Keegan Bradley,f
+pga,2025,Rocket Classic,2025-06-26,2025-06-29,f,Medal,4,-6,9.6e+06,156,Detroit Golf Club,Aldrich Potgieter,t
+pga,2025,John Deere Classic,2025-07-03,2025-07-06,f,Medal,4,-5,8.4e+06,156,TPC Deere Run,Brian Campbell,t
+pga,2025,Genesis Scottish Open,2025-07-10,2025-07-13,f,Medal,4,-1,9e+06,156,The Renaissance Club,Chris Gotterup,f
+pga,2025,ISCO Championship,2025-07-10,2025-07-13,f,Medal,4,1,4e+06,156,Hurstbourne Country Club,William Mouw,f
+pga,2025,Barracuda Championship,2025-07-17,2025-07-20,f,Modified Stableford,4,11,4e+06,156,Tahoe Mountain Club (Old Greenwood),Ryan Gerard,f
+pga,2025,The Open,2025-07-17,2025-07-20,t,Medal,4,1,1.7e+07,156,Royal Portrush Golf Club,Scottie Scheffler,f
+pga,2025,3M Open,2025-07-24,2025-07-27,f,Medal,4,-5,8.4e+06,156,TPC Twin Cities,Kurt Kitayama,f
+pga,2025,Wyndham Championship,2025-07-31,2025-08-03,f,Medal,4,-3,8.2e+06,156,Sedgefield Country Club,Cameron Young,f
+pga,2025,FedEx St. Jude Championship,2025-08-07,2025-08-10,f,Medal,4,,2e+07,69,TPC Southwind,Justin Rose,t
+pga,2025,BMW Championship,2025-08-14,2025-08-17,f,Medal,4,,2e+07,49,Caves Valley Golf Club,Scottie Scheffler,f
+pga,2025,TOUR Championship,2025-08-21,2025-08-24,f,Medal,4,,4e+07,30,East Lake Golf Club,Tommy Fleetwood,f
+pga,2025,Procore Championship,2025-09-11,2025-09-14,f,Medal,4,-1,6e+06,144,Silverado Resort (North Course),Scottie Scheffler,f
+pga,2025,Sanderson Farms Championship,2025-10-02,2025-10-05,f,Medal,4,-4,6e+06,132,The Country Club of Jackson,Steven Fisk,f
+pga,2025,Baycurrent Classic,2025-10-09,2025-10-12,f,Medal,4,,8e+06,78,Yokohama Country Club,Xander Schauffele,f
+pga,2025,Bank of Utah Championship,2025-10-23,2025-10-26,f,Medal,4,-2,6e+06,132,Black Desert Resort Golf Course,Michael Brennan,f
+pga,2025,World Wide Technology Championship,2025-11-06,2025-11-09,f,Medal,4,-5,7.2e+06,120,El Cardonal at Diamante,Ben Griffin,f
+pga,2025,Butterfield Bermuda Championship,2025-11-13,2025-11-16,f,Medal,4,0,6e+06,120,Port Royal Golf Course,Adam Schenk,f
+pga,2025,The RSM Classic,2025-11-20,2025-11-23,f,Medal,4,-7,7e+06,156,Sea Island Golf Club (Seaside Course),Sami Välimäki,f
+pga,2025,Hero World Challenge,2025-12-04,2025-12-07,f,Medal,4,,5e+06,20,Albany GC,Hideki Matsuyama,t
+pga,2025,PGA TOUR Q-School presented by Korn Ferry,2025-12-11,2025-12-14,f,Medal,4,,510000,174,TPC Sawgrass (Dye's Valley Course),A.J. Ewart,f
