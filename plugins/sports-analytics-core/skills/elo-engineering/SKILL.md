@@ -1,6 +1,6 @@
 ---
 name: elo-engineering
-description: "Use when the user asks to build Elo ratings, rate teams or players, tune K-factor or home advantage, carry ratings across seasons, add margin-of-victory, or mentions Fading, Form or Component Elo. Works for team sports and for tennis, golf, UFC and cricket player or fighter ratings. Not for general feature construction (use feature-engineering), not for a full model (use model-building), not for plain team stats (use nhl-team-analysis for hockey or your sport's stats tools), not for season simulation (use nhl-playoff-simulation)."
+description: "Use when the user asks to build Elo ratings, rate teams or players, tune K-factor or home advantage, carry ratings across seasons, add margin-of-victory, or mentions Fading, Form or Component Elo. Works for team sports and for tennis, golf, UFC and cricket player or fighter ratings. Not for general feature construction (use feature-engineering), not for a full model (use model-building), not for plain team stats (call get_standings or get_team_stats for hockey, or your sport's stats tools), not for season simulation (use nhl-playoff-simulation)."
 metadata:
   version: 2.1.0
   author: SportsDataHQ
@@ -34,7 +34,7 @@ Own data: required columns are game_id, date, home_team, away_team, home_score, 
 ## When NOT to Use
 
 - Non-Elo features: use `feature-engineering`
-- Comparing team stats without ratings: use `nhl-team-analysis` (hockey) or your sport's stats tools
+- Comparing team stats without ratings: call `get_standings` or `get_team_stats` (hockey) or your sport's stats tools
 - Training a full prediction model: use `model-building`
 - Season simulations: use `nhl-playoff-simulation` (hockey)
 

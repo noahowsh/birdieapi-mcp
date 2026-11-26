@@ -1,6 +1,6 @@
 ---
 name: feature-engineering
-description: "Use when the user asks to prepare data for a model, build rolling averages or recent-form features, add rest days or back-to-back flags, adjust for strength of schedule, build starter or goalkeeper quality features, use Elo as an input, or check features for leakage. Enforces shift(1) before any rolling calculation. Not for looking up raw stats (use your sport's lookup skill such as nhl-game-lookup or nhl-team-analysis), not for explaining hockey metrics (use nhl-advanced-stats), not for expected goals features (use nhl-xg-model), not for training (use model-building)."
+description: "Use when the user asks to prepare data for a model, build rolling averages or recent-form features, add rest days or back-to-back flags, adjust for strength of schedule, build starter or goalkeeper quality features, use Elo as an input, or check features for leakage. Enforces shift(1) before any rolling calculation. Not for looking up raw stats (call get_games, get_standings or get_team_stats), not for explaining hockey metrics (use nhl-advanced-stats), not for expected goals features (use nhl-xg-model), not for training (use model-building)."
 metadata:
   version: 2.1.0
   author: SportsDataHQ
@@ -37,7 +37,7 @@ Own data (CSV or JSON): verify game_date, home and away identifiers, result colu
 
 ## When NOT to Use
 
-- Raw lookups: use `nhl-game-lookup` or `nhl-team-analysis` (hockey) or your sport's stats tools
+- Raw lookups: call `get_games`, `get_standings` or `get_team_stats` (hockey) or your sport's stats tools
 - What Corsi, Fenwick or PDO mean: use `nhl-advanced-stats`
 - Expected goals features: use `nhl-xg-model`
 - Training or evaluating the model: use `model-building` and `walk-forward-validation`

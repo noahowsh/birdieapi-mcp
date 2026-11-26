@@ -127,7 +127,7 @@ plt.show()
 
 ## 3. Team Comparison Radar
 
-Source skill: `nhl-team-analysis` or `nhl-game-preview`
+Source skill: `get_team_stats` or `nhl-game-preview`
 Input: two teams, 6-8 metrics each, league averages
 
 ```python
@@ -135,7 +135,7 @@ Input: two teams, 6-8 metrics each, league averages
 import matplotlib.pyplot as plt
 import numpy as np
 
-# DATA SECTION: paste from nhl-team-analysis or nhl-game-preview
+# DATA SECTION: paste from get_team_stats or nhl-game-preview
 team_a_name = 'Buffalo Sabres'
 team_b_name = 'Toronto Maple Leafs'
 metrics = ['CF%', 'xGF%', 'PP%', 'PK%', 'GF/GP', 'GA/GP']

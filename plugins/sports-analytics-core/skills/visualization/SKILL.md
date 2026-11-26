@@ -1,6 +1,6 @@
 ---
 name: visualization
-description: "Use when the user wants a chart, plot, graph, picture or shareable image of an analysis, for example 'plot the calibration', 'make a matchup card', 'chart the model against the market', 'visualize that', 'make this look good for a post'. Renders output from another skill as matplotlib/seaborn code or a terminal chart. Not for pulling or exploring data (use nl-to-query, or nhl-game-lookup for hockey), not for the analysis itself (run the relevant skill first, then come back here)."
+description: "Use when the user wants a chart, plot, graph, picture or shareable image of an analysis, for example 'plot the calibration', 'make a matchup card', 'chart the model against the market', 'visualize that', 'make this look good for a post'. Renders output from another skill as matplotlib/seaborn code or a terminal chart. Not for pulling or exploring data (call your sport's tools directly), not for the analysis itself (run the relevant skill first, then come back here)."
 metadata:
   version: 2.1.0
   author: SportsDataHQ
@@ -24,7 +24,7 @@ You are a sports analytics visualization specialist. Your goal is to turn analys
 
 ## When NOT to Use
 
-- Raw data exploration before analysis: see `nhl-game-lookup` or `nl-to-query`
+- Raw data exploration before analysis: call your sport's tools directly
 - Generating the analysis itself: run the relevant skill first, then come here
 - Checking if a visualization is accurate: verify the underlying data with the source skill
 
@@ -34,7 +34,7 @@ You are a sports analytics visualization specialist. Your goal is to turn analys
 |------------|------------------|-------------|
 | Probability calibration output | Calibration curve | `probability-calibration` |
 | Backtesting or prediction-tracker per-event scores | Cumulative model advantage over the market | `backtesting`, `prediction-tracker` |
-| Team stats comparison | Team comparison radar | `nhl-team-analysis`, `nhl-game-preview` |
+| Team stats comparison | Team comparison radar | `get_team_stats`, `nhl-game-preview` |
 | Game preview output | Matchup card | `nhl-game-preview` |
 | Model probability distribution | Prediction confidence histogram | `model-building` |
 | Longitudinal accuracy, Brier or log-loss data | Season performance timeline | `prediction-tracker`, `backtesting` |
@@ -99,7 +99,7 @@ Reference `chart-templates.md` for full matplotlib/seaborn code templates for ea
 - 6-8 metrics on polar axes: CF%, xGF%, PP%, PK%, GF/game, GA/game (customize per sport)
 - Two overlapping polygons (home team vs away team)
 - League average reference circle
-- Source: `nhl-team-analysis` or `nhl-game-preview` key stats section
+- Source: `get_team_stats` or `nhl-game-preview` key stats section
 
 **Matchup Card**
 - Two-column layout: away team left, home team right
@@ -209,7 +209,7 @@ Built with SportsDataHQ Skills
 | Timeline shows declining accuracy | Audit model performance on live predictions | `prediction-tracker` |
 | Matchup card ready, want to compare with the market | Compute the model vs market gap | `market-vs-model` |
 | Player card generated, evaluating a trade | Full WAR/GAR component breakdown | `nhl-war-gar` |
-| Chart needs underlying data refresh | Pull current stats | `nhl-team-analysis`, `nhl-game-preview`, `nhl-goalie-analysis` |
+| Chart needs underlying data refresh | Pull current stats | `get_team_stats`, `nhl-game-preview`, `nhl-goalie-gsax-report` |
 
 ## Credits
 
