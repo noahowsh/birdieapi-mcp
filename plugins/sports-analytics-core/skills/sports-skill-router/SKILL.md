@@ -2,7 +2,7 @@
 name: sports-skill-router
 description: "Use when a sports data or analytics request comes in and it is unclear which skill to load, for example 'help me with this sports data', 'where do I start', 'what can you do with hockey stats', 'which skill handles X'. Routes the request to the right two or three skills so not all of them load. Not for answering the question itself: once routed, the chosen skill does the work. Single-skill requests (for example 'devig these odds') can go straight to odds-market-analysis without this router."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 

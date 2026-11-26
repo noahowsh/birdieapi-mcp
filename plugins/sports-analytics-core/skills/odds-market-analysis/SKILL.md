@@ -2,7 +2,7 @@
 name: odds-market-analysis
 description: "Use when the user asks what betting odds mean as numbers, for any sport, in plain wording: 'what does +250 mean as a chance', 'convert 2.30 to a percent', 'how do I take the juice out of this line', 'what is the hold on this market', 'overround on a three-way line', 'no-vig price for -300/+250', 'why are two-way markets less juicy', 'my number vs the closing line', 'how did the spread move'. Use this whenever the question is about odds math, the bookmaker margin, devigging methods or line movement as a concept. Load it for short fragments and follow-ups too, instead of answering from memory. Odds are information about the market, never an instruction to wager. Not for fetching today's prices (see your sport's odds skill), our model against the market (see market-vs-model), calibration (see probability-calibration) or bet sizing, which is never done."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 

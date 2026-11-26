@@ -2,7 +2,7 @@
 name: data-pipeline
 description: "Use when the user wants to automate a sports model: run predictions every morning, set up a cron job or GitHub Action, store predictions in a database, version models, retrain on a schedule or get alerted when accuracy drifts. Covers pulls through any sport's SportsDataHQ MCP server. Not for one-off lookups (use your sport's lookup skill or nl-to-query), not for building the model (use model-building), not for historical testing (use backtesting), not for grading logged predictions (use prediction-tracker)."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 

@@ -2,7 +2,7 @@
 name: probability-calibration
 description: "Use when the user asks about the quality of a model's probabilities, for any sport, in plain wording: 'what's my Brier score', 'log loss of my predictions', 'reliability plot for my model', 'is 63 percent really 63 percent', 'is it overconfident', 'Platt or isotonic', 'are my probabilities off at the extremes', 'did calibration drift', 'fix my probabilities'. Use this whenever a Brier score, log loss, reliability diagram or calibration fix is asked for, even on a one-off set of predictions. Load it for short fragments and follow-ups too, instead of answering from memory or going straight to the raw tools. Verifies and fixes predicted probabilities against results with sample sizes and intervals. Not for logging predictions as they happen and grading them over time (see prediction-tracker), odds math (see odds-market-analysis), training (see model-building) or market comparison (see market-vs-model)."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 

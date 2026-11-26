@@ -2,7 +2,7 @@
 name: market-vs-model
 description: "Use when the user compares their own model's numbers with the betting market, for any sport, in plain wording: 'where do we disagree with the market', 'who does the book like more than my model', 'does my model have an edge on the close', 'rank tonight's games by the gap', 'our price vs fair price', 'is the market higher on them than my numbers', 'how big a gap is real', 'gap between us and closing lines'. Use this whenever a model probability sits next to a market probability. Load it for short fragments and follow-ups too, instead of answering from memory or going straight to the raw tools. Covers the model vs no-margin market gap, closing-line comparison and how large a sample must be before a gap means anything. Odds are information only: no stakes, no picks. Not for odds math (see odds-market-analysis), raw price lookups, historical accuracy (see backtesting) or calibration (see probability-calibration)."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 

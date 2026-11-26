@@ -2,7 +2,7 @@
 name: golf-finish-simulation
 description: "Use when the user wants golf win or finish chances from a simulation, in fan or analyst wording: 'who is most likely to win this week', 'Cantlay's chance of a top 5', 'odds he makes the cut', 'will a longshot win', 'run the field 10,000 times', 'percent chance to finish top 20', 'simulate the PGA', 'top 10 chances for Schauffele', 'odds a nobody wins', 'probability of a debut winner'. Use this whenever someone wants probabilities for a golf tournament outcome. Also use it for bare follow-ups with no name given, and load it instead of answering from memory or going straight to the raw tools. Runs a Monte Carlo simulation in code from strokes-versus-field ratings and round-to-round spread, with the method and simulation error stated. Not for a field preview (see golf-tournament-preview), a player's form (see golf-strokes-vs-field), course record (see golf-course-history), a played event's recap (see golf-leaderboard-story) or sportsbook prices."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 

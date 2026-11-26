@@ -1,7 +1,7 @@
 {
   "name": "sports-analytics-core",
   "displayName": "SportsDataHQ: analytics core",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Sport-agnostic skills: model building, feature engineering, backtesting, walk-forward validation, calibration, Elo, visualization, data pipelines, and comparing a model with the market as information.",
   "author": {
     "name": "SportsDataHQ",

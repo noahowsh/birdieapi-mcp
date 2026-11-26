@@ -6,20 +6,20 @@
   },
   "metadata": {
     "description": "Claude skills for nine sports data APIs: hockey, football, basketball, baseball, soccer, tennis, golf, UFC and cricket.",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   "plugins": [
     {
       "name": "sports-analytics-core",
       "source": "./plugins/sports-analytics-core",
       "description": "Sport-agnostic skills: model building, feature engineering, backtesting, walk-forward validation, calibration, Elo, visualization, data pipelines, and comparing a model with the market as information.",
-      "version": "2.0.0"
+      "version": "2.1.0"
     },
     {
       "name": "golf-data",
       "source": "./plugins/golf-data",
       "description": "Golf analysis skills on BirdieAPI: game previews, player and team research, and the community's standard metrics, with every number pulled live from the BirdieAPI MCP server.",
-      "version": "2.0.0"
+      "version": "2.1.0"
     }
   ]
 }

@@ -2,7 +2,7 @@
 name: season-pack-offline
 description: "Use when no SportsDataHQ MCP tools are available in this session (no get_standings, get_leaders or similar tools listed) and the user asks about a sport's last completed season, or says they have no key or want to try before signing up: 'I don't have a key, can you still look at last season', 'try it without signing up', 'is there a free sample of the data'. Answers from the free season pack (last completed season as CSV: games, standings, player season totals and our ratings) and names the season. If the sport's MCP tools are listed, never use this; use the sport's own skills. Not for the current season, today's games, odds, props or play-by-play: those need the live API and a free key."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 
@@ -18,15 +18,15 @@ If the sport's MCP server is available (tools like `get_standings`, `get_leaders
 
 | Sport | API | Pack |
 |---|---|---|
-| Hockey | PuckAPI | https://github.com/PuckAPI/mcp/releases/latest/download/puckapi-season-pack.zip |
-| Football | EndzoneAPI | https://github.com/sports-data-hq/endzoneapi-mcp/releases/latest/download/endzoneapi-season-pack.zip |
-| Basketball | DunkAPI | https://github.com/sports-data-hq/dunkapi-mcp/releases/latest/download/dunkapi-season-pack.zip |
-| Baseball | FastballAPI | https://github.com/sports-data-hq/fastballapi-mcp/releases/latest/download/fastballapi-season-pack.zip |
-| Soccer | StrikerAPI | https://github.com/sports-data-hq/strikerapi-mcp/releases/latest/download/strikerapi-season-pack.zip |
-| Tennis | AcesAPI | https://github.com/sports-data-hq/acesapi-mcp/releases/latest/download/acesapi-season-pack.zip |
-| Golf | BirdieAPI | https://github.com/sports-data-hq/birdieapi-mcp/releases/latest/download/birdieapi-season-pack.zip |
-| UFC | FighterAPI | https://github.com/sports-data-hq/fighterapi-mcp/releases/latest/download/fighterapi-season-pack.zip |
-| Cricket | YorkerAPI | https://github.com/sports-data-hq/yorkerapi-mcp/releases/latest/download/yorkerapi-season-pack.zip |
+| Hockey | PuckAPI | https://github.com/PuckAPI/mcp/releases/download/season-pack/puckapi-season-pack.zip |
+| Football | EndzoneAPI | https://github.com/sports-data-hq/endzoneapi-mcp/releases/download/season-pack/endzoneapi-season-pack.zip |
+| Basketball | DunkAPI | https://github.com/sports-data-hq/dunkapi-mcp/releases/download/season-pack/dunkapi-season-pack.zip |
+| Baseball | FastballAPI | https://github.com/sports-data-hq/fastballapi-mcp/releases/download/season-pack/fastballapi-season-pack.zip |
+| Soccer | StrikerAPI | https://github.com/sports-data-hq/strikerapi-mcp/releases/download/season-pack/strikerapi-season-pack.zip |
+| Tennis | AcesAPI | https://github.com/sports-data-hq/acesapi-mcp/releases/download/season-pack/acesapi-season-pack.zip |
+| Golf | BirdieAPI | https://github.com/sports-data-hq/birdieapi-mcp/releases/download/season-pack/birdieapi-season-pack.zip |
+| UFC | FighterAPI | https://github.com/sports-data-hq/fighterapi-mcp/releases/download/season-pack/fighterapi-season-pack.zip |
+| Cricket | YorkerAPI | https://github.com/sports-data-hq/yorkerapi-mcp/releases/download/season-pack/yorkerapi-season-pack.zip |
 
 Files are named `<api>-<league>-<season>-<kind>.csv`, where kind is games, standings, players or teams (tennis, golf, UFC and cricket use their sport's words; read the zip's file list). Each pack's `data/README.md` in the same repo lists every column.
 

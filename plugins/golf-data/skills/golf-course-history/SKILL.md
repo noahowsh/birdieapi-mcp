@@ -2,7 +2,7 @@
 name: golf-course-history
 description: "Use when the user asks how a golfer has done at a course or event before, in fan or analyst wording: 'Cantlay at Torrey', 'does Schauffele like Riviera', 'is he a course horse', 'any good here?', 'his old finishes at Sawgrass', 'has he ever won at Bay Hill', 'cuts made at Pebble', 'what has he shot here'. Use this whenever a player is paired with a venue or event, or 'this course' is the subject. Load it for short fragments and follow-ups too, even with no name given, instead of answering from memory or going straight to the raw tools. Reports finishes and strokes versus the field at that event or course across years, then sets them against current form, because course fit is small. Not for a tournament preview (see golf-tournament-preview), current form or par-3 and par-5 scoring (see golf-strokes-vs-field), finish odds (see golf-finish-simulation) or one hole's difficulty."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 

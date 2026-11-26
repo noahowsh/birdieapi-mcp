@@ -2,7 +2,7 @@
 name: backtesting
 description: "Use when the user asks whether a sports model or system would have worked in the past, for any sport, in plain wording: 'does my model actually work', 'test it on the last three seasons', 'did it beat the closing line', 'is it still as accurate as it used to be', 'what is the confidence interval on my hit rate', 'how would this have done in 2023', 'run it against past odds', 'is this edge real or luck'. Use this whenever historical performance, sample size or an interval is the question. Load it for short fragments and follow-ups too, instead of answering from memory or going straight to the raw tools. Walk-forward only; refuses in-sample testing; reports sample size, an interval and a per-season breakdown. Not for logging live predictions (see prediction-tracker), today's market gap (see market-vs-model), training (see model-building) or fold design alone (see walk-forward-validation)."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 
