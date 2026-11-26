@@ -251,4 +251,5 @@ Cache slow-moving inputs (season stats, ratings) and refresh weekly rather than 
 
 ## Credits
 
+- Sequences (last 5, recent form, a run of results) are quoted in the order the tool returns them, with dates; never retell them from memory. Lists in the answer must match the tool rows.
 - Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

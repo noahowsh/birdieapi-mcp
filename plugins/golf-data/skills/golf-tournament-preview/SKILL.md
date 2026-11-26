@@ -37,7 +37,13 @@ What to watch: 2-3 bullets from the numbers
 Data: get_schedule, get_ratings, get_course_history[, get_winner_odds] | <tour>, <season>
 ```
 
+## When the field isn't out
+
+If the tournament is weeks away or its field isn't published, don't stop to ask. Preview what is known: the course (`get_course`), last year's leaderboard there, and the leading players by rating with their history at the event, and say plainly that the field isn't confirmed. If the event already finished, give its result story instead.
+
 ## Rules
 - Ratings need rounds: show how many. Under ~20 recent rounds, say the rating is unstable.
 - Prices are information about the market only: no pick, stake or bet.
+- Complete before writing: every step in the default path is called for both sides before the preview is written. If a call fails or returns nothing, say which section is missing rather than writing around it.
+- Sequences (last 5, recent form, a run of results) are quoted in the order the tool returns them, with dates; never retell them from memory. Lists in the answer must match the tool rows.
 - Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
