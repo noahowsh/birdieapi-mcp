@@ -2,7 +2,7 @@
 name: golf-leaderboard-story
 description: "Use when the user wants the story of a golf tournament that has been played or is under way, in fan or analyst wording: 'what happened at Riviera', 'how did Scottie win', 'who charged on Sunday', 'where did he blow it', 'why did the leader collapse', 'recap the Open', 'back nine breakdown', 'how did he lose a 4 shot lead', 'how did he win it', 'who made a charge on the final day', 'where did it go wrong for him', 'how did the lead slip away'. Use this whenever someone asks how a result came about. Also use it for bare follow-ups with no name given, and load it instead of answering from memory or going straight to the raw tools. Builds a round-by-round and hole-by-hole account from the leaderboard and scorecards, with strokes versus the field. Not for who will win (see golf-finish-simulation), a field preview (see golf-tournament-preview), a player's form over time (see golf-strokes-vs-field) or course history (see golf-course-history)."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   author: SportsDataHQ
 ---
 

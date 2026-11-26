@@ -2,7 +2,7 @@
 name: walk-forward-validation
 description: "Use when the user asks how to validate or test a sports prediction model, whether k-fold or a random train/test split is okay, why accuracy fell on new data, whether the model is overfit, or whether a result is statistically significant. Gives the time-ordered (walk-forward) method with per-season results, baselines and intervals, and redirects k-fold on time-ordered data. Not for historical strategy simulations (use backtesting), not for building the model (use model-building), not for calibrating probabilities (use probability-calibration)."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   author: SportsDataHQ
 ---
 

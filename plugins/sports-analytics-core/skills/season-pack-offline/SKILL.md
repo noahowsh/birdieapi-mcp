@@ -2,7 +2,7 @@
 name: season-pack-offline
 description: "Use when no SportsDataHQ MCP tools are available in this session (no get_standings, get_leaders or similar tools listed) and the user asks about a sport's last completed season, or says they have no key or want to try before signing up: 'I don't have a key, can you still look at last season', 'try it without signing up', 'is there a free sample of the data'. Answers from the free season pack (last completed season as CSV: games, standings, player season totals and our ratings) and names the season. If the sport's MCP tools are listed, never use this; use the sport's own skills. Not for the current season, today's games, odds, props or play-by-play: those need the live API and a free key."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   author: SportsDataHQ
 ---
 

@@ -2,7 +2,7 @@
 name: prediction-tracker
 description: "Use when the user wants to log model predictions and grade them as games finish, for any sport, in plain wording: 'track my predictions', 'log tonight's probabilities', 'how's the model doing so far', 'is it still any good', 'is accuracy slipping', 'am I beating the close', 'grade last week's picks', 'keep a record of what the model said'. Use this whenever predictions are saved before games and scored after. Load it for short fragments and follow-ups too, instead of answering from memory or going straight to the raw tools. Logs probability, outcome, Brier score, log loss, calibration and closing-line comparison with sample sizes and intervals. Not for placing or sizing wagers (never done), tests on past seasons (see backtesting), fixing calibration (see probability-calibration) or retraining (see model-building)."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   author: SportsDataHQ
 ---
 
