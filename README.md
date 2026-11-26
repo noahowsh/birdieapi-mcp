@@ -23,7 +23,7 @@ Claude: [calls get_winner_odds]
 Most clients connect to `https://mcp.birdieapi.com/mcp` directly. For a client that launches a local process instead:
 
 ```bash
-git clone https://github.com/noahowsh/birdieapi-mcp.git && cd birdieapi-mcp && npm install
+git clone https://github.com/sports-data-hq/birdieapi-mcp.git && cd birdieapi-mcp && npm install
 BIRDIEAPI_API_KEY=your_key node index.js
 ```
 
@@ -130,8 +130,8 @@ See [`examples/README.md`](examples/README.md) for details. Get a free key (500 
 ## Use it in
 
 - **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.birdieapi.com/mcp` as a remote MCP server. Step-by-step for each: https://birdieapi.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
-- **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/birdieapi-mcp`
-- **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
+- **Gemini CLI:** `gemini extensions install https://github.com/sports-data-hq/birdieapi-mcp`
+- **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/sports-data-hq/sportsdatahq-cursor-plugins)
 - **Google Sheets:** `=SDHQ("birdieapi","list_tournaments")` fills a live table: https://sportsdatahq.com/sheets?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
 - **REST:** `POST https://mcp.birdieapi.com/v1/<tool>` with an `x-api-key` header: https://birdieapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
 
@@ -169,7 +169,7 @@ Coverage by season, read live from the database: https://birdieapi.com/docs?utm_
 
 ## Pricing
 
-500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://birdieapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000), Business $299/mo (300,000). Wallet top-ups from $5, never expire. https://birdieapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
 
 ## Useful pages
 
@@ -205,7 +205,7 @@ Install `golf-data`, which bundles the golf skills and the BirdieAPI MCP server.
 
 ```bash
 export BIRDIEAPI_API_KEY=your_key
-gemini extensions install https://github.com/noahowsh/birdieapi-mcp
+gemini extensions install https://github.com/sports-data-hq/birdieapi-mcp
 ```
 
 The extension adds the BirdieAPI MCP server (https://mcp.birdieapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://birdieapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp.
