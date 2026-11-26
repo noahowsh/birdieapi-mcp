@@ -1,0 +1,55 @@
+{
+  "skill": "walk-forward-validation",
+  "tasks": [
+    {
+      "prompt": "Can I use k-fold on my soccer model?",
+      "expect": [
+        "says no and why (time leakage)",
+        "proposes expanding window folds",
+        "per-season results with baselines"
+      ]
+    },
+    {
+      "prompt": "Why did accuracy drop on new data?",
+      "expect": [
+        "checks leakage and overfit",
+        "compares to naive baselines",
+        "interval before calling it a drop"
+      ]
+    },
+    {
+      "prompt": "Is 61% over 200 games better than a 55% baseline?",
+      "expect": [
+        "significance test with the counts",
+        "interval stated",
+        "says what sample would be needed"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "random train test split ok for NBA games",
+      "how should I validate a tennis model",
+      "is my model overfit",
+      "design time-ordered folds for NFL",
+      "accuracy was 66 in training and 54 in the wild",
+      "is the improvement statistically significant",
+      "how many seasons to train before testing",
+      "expanding vs rolling window",
+      "why can't I shuffle my games",
+      "test on 2024 after training on earlier years"
+    ],
+    "should_not": [
+      "backtest vs the closing line",
+      "build the model",
+      "fix the calibration",
+      "log predictions",
+      "devig",
+      "rolling average features",
+      "chart",
+      "tonight's game preview",
+      "who won",
+      "Elo K tuning"
+    ]
+  }
+}

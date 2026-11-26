@@ -1,6 +1,6 @@
 ---
 name: odds-market-analysis
-description: "Use when the user asks what odds mean as a probability, how to convert American, decimal or fractional odds, what the bookmaker margin (vig, juice, overround) is, how to remove it (devig, no-vig line, Shin, power, multiplicative), how a line moved, or how a closing line compares with our model. Odds are treated as information about the market, never as an instruction to wager. Not for browsing current prices (use nhl-odds-explorer for hockey), not for comparing our model with the market (use market-vs-model), not for calibrating model output (use probability-calibration)."
+description: "Use when the user asks what betting odds mean as numbers, for any sport, in plain wording: 'what does +250 mean as a chance', 'convert 2.30 to a percent', 'how do I take the juice out of this line', 'what is the hold on this market', 'overround on a three-way line', 'no-vig price for -300/+250', 'why are two-way markets less juicy', 'my number vs the closing line', 'how did the spread move'. Use this whenever the question is about odds math, the bookmaker margin, devigging methods or line movement as a concept. Load it for short fragments and follow-ups too, instead of answering from memory. Odds are information about the market, never an instruction to wager. Not for fetching today's prices (see your sport's odds skill), our model against the market (see market-vs-model), calibration (see probability-calibration) or bet sizing, which is never done."
 metadata:
   version: 2.0.0
   author: SportsDataHQ

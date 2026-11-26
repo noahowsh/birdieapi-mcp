@@ -1,6 +1,6 @@
 ---
 name: golf-strokes-vs-field
-description: "Use when the user wants to know how a golfer is really playing or how golfers compare: 'who is playing best', 'strokes gained for Scheffler', 'is he good on par 5s', 'rank the field by scoring versus the field', 'is his form real', 'how does he score on par 3s'. Reports strokes versus the field per round (raw and field-strength adjusted), by hole type on the PGA Tour, with rounds counted. Not for a tournament preview (see golf-tournament-preview), a player's record at one course (see golf-course-history) or modeling (see model-building)."
+description: "Use when the user asks how a golfer is playing or how golfers compare on scoring, in fan or analyst wording: 'is Scottie the best right now', 'is his hot streak real', 'how is he on par 5s', 'par 3 scoring', 'strokes gained for Fleetwood', 'rank these guys', 'who is scoring best this year', 'is he declining'. Use this whenever player form or scoring is the subject. Load it for short fragments and follow-ups too, even with no name given, instead of answering from memory or going straight to the raw tools. Reports strokes versus the field per round (raw and field-strength adjusted), by hole type on the PGA Tour, with rounds counted. It holds overall scoring only, not putting, approach or driving categories, and says so. Not for a tournament preview (see golf-tournament-preview), one course's record (see golf-course-history), finish odds (see golf-finish-simulation) or a recap (see golf-leaderboard-story)."
 metadata:
   version: 2.0.0
   author: SportsDataHQ

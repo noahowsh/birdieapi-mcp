@@ -1,0 +1,56 @@
+{
+  "skill": "odds-market-analysis",
+  "tasks": [
+    {
+      "prompt": "Convert -165/+140 to fair probabilities",
+      "expect": [
+        "both implied probabilities computed",
+        "margin (overround) shown",
+        "no-margin line via multiplicative and one other method",
+        "labelled as the market's probability"
+      ]
+    },
+    {
+      "prompt": "Explain the difference between Shin and power devigging",
+      "expect": [
+        "method differences stated",
+        "when they diverge (longshots)",
+        "no wagering advice"
+      ]
+    },
+    {
+      "prompt": "How did the line on Warriors Celtics move?",
+      "expect": [
+        "get_line_movement cited with arguments",
+        "opening vs closing with timestamps",
+        "information only, no sharp-money claim"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "what does +250 mean as a chance",
+      "how do I take the juice out of a three-way soccer line",
+      "overround on a golf outright market",
+      "decimal 2.30 to percent",
+      "what is the hold on a tennis match",
+      "closing line vs my number",
+      "how did the Chiefs spread move",
+      "fractional odds 5/2 as a probability",
+      "why do favorites in two-way markets have less vig",
+      "no-vig line for a UFC fight at -300/+250"
+    ],
+    "should_not": [
+      "what are the odds on the Oilers game tonight",
+      "does my model beat the market",
+      "is my model calibrated",
+      "bet sizing",
+      "make a chart",
+      "predict the winner",
+      "build an Elo model",
+      "list tonight's NHL games",
+      "which book has the best price",
+      "calculate how much I win on +200"
+    ]
+  }
+}

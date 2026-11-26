@@ -1,0 +1,55 @@
+{
+  "skill": "visualization",
+  "tasks": [
+    {
+      "prompt": "Plot the calibration of my NBA model",
+      "expect": [
+        "reliability diagram code with n per bin",
+        "source, sample size and season in the footer",
+        "only numbers from a tool or skill run"
+      ]
+    },
+    {
+      "prompt": "Make a matchup card for Alcaraz vs Sinner",
+      "expect": [
+        "pulls data with tools first",
+        "matplotlib code or terminal chart",
+        "no invented values"
+      ]
+    },
+    {
+      "prompt": "Visualize that",
+      "expect": [
+        "asks which prior result if none exists",
+        "does not fabricate data",
+        "says not enough data when thin"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "chart the model against the market",
+      "make this look good for a post",
+      "graph Elo over time for Liverpool",
+      "shot map picture for Haaland",
+      "bar chart of this season's leaders",
+      "image I can share of the results",
+      "draw the win probability curve",
+      "heatmap of where Curry shoots",
+      "plot goalie save percentage by month",
+      "terminal chart of the standings"
+    ],
+    "should_not": [
+      "pull the standings",
+      "how accurate is my model",
+      "calibrate the probabilities",
+      "what is a reliability diagram",
+      "who leads in points",
+      "build an Elo",
+      "automate daily data",
+      "explain devigging",
+      "preview tonight's game",
+      "backtest on 2023"
+    ]
+  }
+}

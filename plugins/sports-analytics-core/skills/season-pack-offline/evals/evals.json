@@ -1,0 +1,10 @@
+{"skill": "season-pack-offline",
+ "tasks": [
+  {"prompt": "I don't have a key yet. Who outperformed their xG most in the Premier League last season?", "expect": ["downloads the StrikerAPI season pack", "states the season (2025-26)", "uses non-penalty goals against non-penalty xG with a minutes minimum", "mentions the free key for current data"]},
+  {"prompt": "Without signing up, show me the final NBA standings from last season", "expect": ["uses the DunkAPI pack standings file", "states the season convention (2026 is 2025-26)", "does not claim the numbers are current"]},
+  {"prompt": "What are the odds for tonight's Leafs game? I haven't connected anything", "expect": ["explains the pack has no odds or current games", "points to the free PuckAPI key", "does not invent prices"]}
+ ],
+ "triggers": {
+  "should": ["I don't have an API key, can you still show last season's top scorers", "try the data without signing up", "who won the Bundesliga last season, I haven't set up the server", "last completed NHL season goal leaders, no key", "is there a free sample of the NFL data", "can I test this offline first", "give me last year's ATP Elo leaders from the free pack", "download the season pack and find the best xG team", "no MCP connected, which MLB team had the best run differential last year", "sample data for cricket before I pay"],
+  "should_not": ["who plays tonight", "current Premier League table", "Jokic points prop tonight", "how do I build an xG model", "explain what Elo is", "what's the weather for the game", "should I bet the over", "set up the MCP server in Cursor", "play-by-play of last night's game", "compare our model to the closing line"]
+ }}

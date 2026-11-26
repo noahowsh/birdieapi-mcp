@@ -1,0 +1,55 @@
+{
+  "skill": "nl-to-query",
+  "tasks": [
+    {
+      "prompt": "How often does the team that scores first win in the NHL?",
+      "expect": [
+        "calls get_games or get_plays with first-goal condition",
+        "count and denominator shown",
+        "season convention stated"
+      ]
+    },
+    {
+      "prompt": "Find NBA games where the home team was outshot but won",
+      "expect": [
+        "translates to conditions and calls list_games",
+        "retries with adjusted filters if results look wrong",
+        "matching rows out of total rows reported"
+      ]
+    },
+    {
+      "prompt": "Who leads in aces when serving second in the Slams?",
+      "expect": [
+        "says the data does not hold the stat, suggests closest tool",
+        "does not guess",
+        "not enough data wording"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "show me games where the underdog won three in a row",
+      "how many NFL teams have started 0-4 and made the playoffs",
+      "find back to back losses for the Celtics",
+      "when Mbappe scores does Real win more",
+      "who leads the league in goals when trailing",
+      "how often do favorites lose after a bye week",
+      "least efficient shooting nights for Curry this year",
+      "find matches where the loser had more xG",
+      "how many UFC title fights ended in round one",
+      "count tennis matches that went to a third set tiebreak"
+    ],
+    "should_not": [
+      "backtest my model",
+      "what's the score of the game",
+      "chart the results",
+      "build rolling features",
+      "Elo ratings",
+      "convert odds",
+      "grade predictions",
+      "preview tonight's NBA game",
+      "should I take the over",
+      "where do I start with sports data"
+    ]
+  }
+}

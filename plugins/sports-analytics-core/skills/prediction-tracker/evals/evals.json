@@ -1,0 +1,55 @@
+{
+  "skill": "prediction-tracker",
+  "tasks": [
+    {
+      "prompt": "Log tonight's NBA probabilities and grade them tomorrow",
+      "expect": [
+        "logs probability before the game with timestamp",
+        "resolves with list_games outcomes",
+        "Brier and log loss with sample size"
+      ]
+    },
+    {
+      "prompt": "How's my model doing so far this season?",
+      "expect": [
+        "running metrics with n and interval",
+        "closing-line comparison",
+        "says not enough data under small samples"
+      ]
+    },
+    {
+      "prompt": "Is my accuracy slipping?",
+      "expect": [
+        "drift check over recent window vs all-time",
+        "interval before calling slippage",
+        "no retraining advice beyond pointing to model-building"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "keep a record of my picks' probabilities",
+      "how accurate have I been since October",
+      "is the soccer model still good",
+      "track my NFL forecasts week to week",
+      "did my tennis model beat the close this month",
+      "grade yesterday's predictions",
+      "save tonight's win chances",
+      "Brier for the last 200 games",
+      "am I getting worse",
+      "running log of model vs closing prices"
+    ],
+    "should_not": [
+      "test my model on three seasons of history",
+      "are my probabilities calibrated by bucket",
+      "fix my calibration with isotonic",
+      "train a new model",
+      "automate the nightly run",
+      "what does -130 mean",
+      "how do I bet these",
+      "preview tonight's game",
+      "explain walk-forward",
+      "Elo ratings"
+    ]
+  }
+}

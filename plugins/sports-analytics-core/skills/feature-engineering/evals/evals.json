@@ -1,0 +1,55 @@
+{
+  "skill": "feature-engineering",
+  "tasks": [
+    {
+      "prompt": "Make rolling 10-game form features for NBA teams",
+      "expect": [
+        "shift(1) before any rolling calculation",
+        "window size and games in training stated",
+        "missing marker where history is short"
+      ]
+    },
+    {
+      "prompt": "Add rest days and back-to-back flags for hockey",
+      "expect": [
+        "rest from schedule dates",
+        "flags computed without future games",
+        "leakage check"
+      ]
+    },
+    {
+      "prompt": "Is my feature set leaking?",
+      "expect": [
+        "checks temporal ordering",
+        "looks for post-game fields",
+        "reports which features fail"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "prep data for an NFL model",
+      "how do I make recent form columns for soccer",
+      "adjust team stats for schedule strength",
+      "build starting pitcher quality inputs",
+      "use Elo as a model input without leaking",
+      "days of rest column for tennis players",
+      "home and away splits as features",
+      "goalkeeper quality feature",
+      "why is my model suspiciously good",
+      "normalise opponent for strength of schedule"
+    ],
+    "should_not": [
+      "show me Utah's last 10 games",
+      "what is a rolling average",
+      "train XGBoost",
+      "fit logistic regression",
+      "remove the vig",
+      "backtest results",
+      "make a chart",
+      "Corsi explained",
+      "who plays tonight",
+      "build the xG model"
+    ]
+  }
+}

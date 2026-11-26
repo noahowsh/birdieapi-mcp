@@ -1,6 +1,6 @@
 ---
 name: sports-data-preflight
-description: "Use before any analysis that joins, compares or aggregates sports data across games, players, seasons or leagues: resolving a player or team to its id, checking which season a date belongs to, confirming a league is the right one (NHL vs PWHL, MLB vs college baseball, Premier League vs Championship), spotting duplicates, and deciding whether there is enough data to answer. Use when the user says 'compare', 'over the last N games', 'this season', 'career', 'trend', or names a player whose id you do not have yet. Not for a single lookup (call the tool directly) or for modeling itself (see model-building)."
+description: "Use when a sports number looks wrong or the data may not line up, in plain wording: 'why don't these numbers match', 'is this the right season', 'I joined two tables and lost rows', 'duplicate players in my data', 'two players share a name, which one', 'is this the NHL or the minors', 'my totals are off by a few games', 'does this date belong to last season', 'is this enough games to say anything'. Use this whenever ids, season convention, league, joins, duplicates or sample size could be the problem, and before comparing players across seasons or careers, for any sport. Checks ids, season convention, league, duplicates and sample size, and says not enough data when it is. Not for a plain single lookup (call the tool directly), explaining a stat or building a model (see model-building)."
 metadata:
   version: 2.0.0
   author: SportsDataHQ

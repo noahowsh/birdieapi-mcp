@@ -1,0 +1,56 @@
+{
+  "skill": "market-vs-model",
+  "tasks": [
+    {
+      "prompt": "Where does my NBA model disagree with the market tonight?",
+      "expect": [
+        "market fair probability from get_game_probabilities",
+        "gap in percentage points per game",
+        "labels model and market probability separately",
+        "no pick"
+      ]
+    },
+    {
+      "prompt": "Does my soccer model beat the closing line?",
+      "expect": [
+        "closing fair vs open fair vs model",
+        "sample size and interval",
+        "past result not presented as a pick"
+      ]
+    },
+    {
+      "prompt": "How many games before a 3-point gap means anything?",
+      "expect": [
+        "explains sample size needs with an interval",
+        "says small gaps need hundreds of games",
+        "no wagering advice"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "is the market higher on the Chiefs than my numbers",
+      "who does the book like more than my model",
+      "rank today's games by how far we are from the market",
+      "does the model have an edge on the closing number over the season",
+      "fair price vs our price for Alcaraz tonight",
+      "gap between us and closing lines on NHL games",
+      "do my ratings beat the close",
+      "how big a sample before this disagreement is real",
+      "model against the line for the Dodgers game",
+      "are we systematically off the market on favorites"
+    ],
+    "should_not": [
+      "convert +150 to probability",
+      "what's the vig on this line",
+      "list tonight's NBA odds",
+      "calibrate my probabilities",
+      "should I bet the gap",
+      "train a model",
+      "the line moved, why",
+      "backtest in-sample",
+      "explain Brier score",
+      "chart this"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "skill": "model-building",
+  "tasks": [
+    {
+      "prompt": "Build a model to predict NFL game winners",
+      "expect": [
+        "logistic regression baseline first",
+        "walk-forward folds only",
+        "accuracy and log loss with intervals",
+        "sample per fold"
+      ]
+    },
+    {
+      "prompt": "Use k-fold cross validation on my tennis model",
+      "expect": [
+        "refuses k-fold on time-ordered data",
+        "proposes walk-forward instead",
+        "explains leakage briefly"
+      ]
+    },
+    {
+      "prompt": "Which features matter most in my MLB model?",
+      "expect": [
+        "feature importance from the walk-forward fits",
+        "caution that importance is not causation",
+        "compared to the baseline"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "predict who wins NBA games",
+      "pick between logistic regression and XGBoost",
+      "tune hyperparameters on my soccer data",
+      "can I combine two models",
+      "train a classifier on UFC fights",
+      "random forest for NHL outcomes",
+      "which inputs does the model rely on",
+      "ensemble of my ratings and a regression",
+      "build a match outcome predictor for the Bundesliga",
+      "is gradient boosting overkill for this"
+    ],
+    "should_not": [
+      "make rolling averages",
+      "is my model calibrated",
+      "backtest it against closing odds",
+      "how do I split folds",
+      "xG model for shots",
+      "should I bet this",
+      "log my predictions",
+      "Elo for each team",
+      "who plays tonight",
+      "visualize feature importance"
+    ]
+  }
+}

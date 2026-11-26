@@ -1,6 +1,6 @@
 ---
 name: golf-tournament-preview
-description: "Use when the user wants a preview of a golf tournament or a player's chances: 'preview this week's PGA Tour event', 'who's playing best going into the Masters', 'course history at Augusta for Scheffler', 'field strength this week', 'LPGA preview'. Produces a report: what's on, the strongest players by our strokes-versus-field rating, course or event history for the names that matter, and winner prices for the four men's majors. Not for a finished tournament's leaderboard (call get_leaderboard) or modeling (see model-building)."
+description: "Use when the user wants to get ready for a golf event, in fan or analyst wording: 'what's on this week', 'who should I watch at the Memorial', 'Masters primer', 'how strong is the field', 'LIV event preview', 'who are the contenders at the Open', 'DP World Tour preview', 'storylines for the PGA'. Use this whenever an upcoming golf event is the subject. Load it for short fragments and follow-ups too, even with no name given, instead of answering from memory or going straight to the raw tools. Produces a report: what's on, the strongest players by our strokes-versus-field rating, event history for the names that matter, and winner prices for the four men's majors. Not for one player's record at a course (see golf-course-history), simulated finish odds (see golf-finish-simulation), a recap (see golf-leaderboard-story), general form (see golf-strokes-vs-field) or modeling (see model-building)."
 metadata:
   version: 2.0.0
   author: SportsDataHQ

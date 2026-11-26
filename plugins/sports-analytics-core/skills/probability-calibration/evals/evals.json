@@ -1,0 +1,55 @@
+{
+  "skill": "probability-calibration",
+  "tasks": [
+    {
+      "prompt": "Does my 70% bucket actually hit 70%?",
+      "expect": [
+        "reliability diagram data with n per bin",
+        "Brier and log loss with intervals",
+        "says not enough data for thin bins"
+      ]
+    },
+    {
+      "prompt": "Apply Platt scaling to my model",
+      "expect": [
+        "fits scaler on a held-out calibration set, not training data",
+        "compares before and after on later games",
+        "sample size stated"
+      ]
+    },
+    {
+      "prompt": "Isotonic or Platt for 300 games?",
+      "expect": [
+        "recommends Platt for small samples",
+        "explains isotonic overfits with few points",
+        "no invented numbers"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "can I trust these probabilities",
+      "are my forecasts overconfident",
+      "reliability plot for my NFL model",
+      "what's my Brier score",
+      "log loss of my soccer predictions",
+      "is calibration drifting this season",
+      "correct my predicted probabilities",
+      "when it says 80 percent does it win 8 in 10",
+      "are the tennis numbers too extreme",
+      "reliability curve for the NBA win model"
+    ],
+    "should_not": [
+      "train the model",
+      "remove the vig",
+      "compare to the market",
+      "backtest against closing lines",
+      "log new predictions",
+      "make a chart of Elo",
+      "schedule a retrain",
+      "what are odds of a tie",
+      "who wins tonight",
+      "explain Corsi"
+    ]
+  }
+}

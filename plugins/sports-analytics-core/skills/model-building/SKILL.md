@@ -1,6 +1,6 @@
 ---
 name: model-building
-description: "Use when the user wants to build a prediction model for game or match outcomes, train a classifier, choose between logistic regression, random forest or XGBoost, tune hyperparameters, see which features matter or combine models. Always walk-forward; refuses k-fold. Works for any sport. Not for building features (use feature-engineering), not for checking probability quality (use probability-calibration), not for fold design alone (use walk-forward-validation), not for expected goals models (use nhl-xg-model), not for comparing output with market probabilities (use market-vs-model)."
+description: "Use when the user wants to build or choose a model that predicts sports outcomes, for any sport, in plain wording: 'predict who wins', 'which algorithm should I use', 'logistic regression or XGBoost', 'tune my model', 'train a classifier on fights', 'which features matter', 'can I blend two models', 'random forest for the NHL', 'my model is stuck at 55 percent'. Use this whenever a game or match prediction model is being built, picked or improved. Load it for short fragments and follow-ups too, instead of answering from memory or going straight to the raw tools. Always walk-forward; refuses k-fold. Not for building input features (see feature-engineering), checking probabilities (see probability-calibration), fold design alone (see walk-forward-validation), hockey shot models (see nhl-xg-model) or market comparison (see market-vs-model)."
 metadata:
   version: 2.0.0
   author: SportsDataHQ

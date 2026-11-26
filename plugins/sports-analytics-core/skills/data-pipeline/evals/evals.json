@@ -1,0 +1,55 @@
+{
+  "skill": "data-pipeline",
+  "tasks": [
+    {
+      "prompt": "Set up a morning job that pulls games and stores predictions",
+      "expect": [
+        "GitHub Actions cron or equivalent",
+        "stores tool name and arguments with each pull",
+        "SQLite schema for predictions"
+      ]
+    },
+    {
+      "prompt": "Alert me if my model's accuracy drifts",
+      "expect": [
+        "drift check on rolling window",
+        "sample size threshold stated",
+        "alert path defined, no auto stake changes"
+      ]
+    },
+    {
+      "prompt": "Retrain weekly and keep old versions",
+      "expect": [
+        "model versioning with a stored version id",
+        "retrain trigger defined",
+        "pull cost checked with the user before a large backfill"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "run my NFL model every Tuesday automatically",
+      "I want predictions saved to a database each morning",
+      "schedule a script to grab tennis results daily",
+      "how do I version my soccer models",
+      "cron job for pulling fresh MLB data",
+      "email me when the model gets worse",
+      "automate the whole thing so I don't touch it",
+      "where should I keep past predictions",
+      "rebuild the model on a schedule",
+      "github action to refresh my ratings"
+    ],
+    "should_not": [
+      "show me last night's score",
+      "what's the best algorithm for outcomes",
+      "backtest this model",
+      "grade my past picks",
+      "explain devigging",
+      "chart the calibration",
+      "Elo K-factor tuning",
+      "who plays tonight in the NBA",
+      "should I bet tomorrow's slate",
+      "one-off pull of Messi's goals"
+    ]
+  }
+}

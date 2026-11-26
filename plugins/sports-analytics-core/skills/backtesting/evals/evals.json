@@ -1,0 +1,56 @@
+{
+  "skill": "backtesting",
+  "tasks": [
+    {
+      "prompt": "Backtest my NBA win probability model over the last three seasons",
+      "expect": [
+        "walk-forward only, refuses in-sample test",
+        "sample size in games",
+        "interval and per-season breakdown",
+        "naive baselines compared"
+      ]
+    },
+    {
+      "prompt": "Did my model beat the closing line in the Premier League?",
+      "expect": [
+        "compares to closing no-margin probability",
+        "get_game_probabilities cited with arguments",
+        "sample size and interval, no pick framing"
+      ]
+    },
+    {
+      "prompt": "Test my model on the data it was trained on",
+      "expect": [
+        "refuses in-sample testing",
+        "offers a walk-forward split instead",
+        "explains why in one line"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "does my NFL model actually work historically",
+      "check my tennis ratings over past years",
+      "is the model still as accurate as it used to be",
+      "run my picks against the 2022 to 2024 seasons",
+      "what's the confidence interval on my hit rate",
+      "did my hockey model beat the market's close",
+      "has accuracy slipped in the last season",
+      "test the thing on past seasons honestly",
+      "how would my MLB probabilities have scored vs closing prices",
+      "is 57% accuracy over 400 games meaningful"
+    ],
+    "should_not": [
+      "log tonight's probabilities",
+      "train a random forest",
+      "is 0.63 really 63%",
+      "remove the vig from -110/-110",
+      "chart my results",
+      "who wins the Lakers game tonight",
+      "set up a nightly job",
+      "design the folds for my model",
+      "how should I size bets from the backtest",
+      "explain what Elo is"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "skill": "elo-engineering",
+  "tasks": [
+    {
+      "prompt": "Build Elo ratings for the Premier League",
+      "expect": [
+        "games pulled with list_games",
+        "K-factor and home advantage tuned on held-out seasons",
+        "games processed per team and season carryover stated"
+      ]
+    },
+    {
+      "prompt": "Rate tennis players with surface-specific Elo",
+      "expect": [
+        "separate or blended ratings per surface",
+        "provisional marker for players with few matches",
+        "sample sizes reported"
+      ]
+    },
+    {
+      "prompt": "Add margin of victory to my NBA Elo",
+      "expect": [
+        "MOV multiplier with autocorrelation damping",
+        "compared against plain Elo with log loss",
+        "walk-forward evaluation"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "rate NFL teams from results",
+      "what K should I use",
+      "how do I handle new season carryover for ratings",
+      "rank UFC fighters with a rating system",
+      "should home advantage be in the Elo",
+      "fading vs form Elo for hockey",
+      "rating system for golfers",
+      "do I need margin of victory",
+      "build a ladder of cricket teams from scratch",
+      "how strong is each Liga MX side by results alone"
+    ],
+    "should_not": [
+      "what's Elo in simple terms for the Lakers tonight",
+      "rolling 10 game averages",
+      "train a logistic regression",
+      "simulate the season",
+      "odds on the NHL game tonight",
+      "check for leakage in my features",
+      "calibration plot",
+      "who leads the league in assists",
+      "walk-forward folds",
+      "explain xG"
+    ]
+  }
+}

@@ -35,7 +35,7 @@ It forwards to the hosted server with your key, so every tool and credit cost is
 
 ## Skills
 
-5 Claude skills for golf ship in this repo, plus 14 analytics skills for models, backtests, calibration and comparing a model with the market. Every number in an answer comes from a live BirdieAPI tool call, and odds are information only: no stakes, no picks.
+5 Claude skills for golf ship in this repo, plus 15 analytics skills for models, backtests, calibration and comparing a model with the market. Every number in an answer comes from a live BirdieAPI tool call, and odds are information only: no stakes, no picks.
 
 Claude Code:
 
@@ -55,7 +55,7 @@ Codex: `codex plugin marketplace add sports-data-hq/birdieapi-mcp`. Any agent th
 | `golf-strokes-vs-field` | Strokes versus the field per round, raw and adjusted for field strength, and by hole type |
 | `golf-tournament-preview` | Tournament preview: course, form, course history, ratings and the winner market for the majors |
 
-The analytics skills: `backtesting`, `data-pipeline`, `elo-engineering`, `feature-engineering`, `market-vs-model`, `model-building`, `nl-to-query`, `odds-market-analysis`, `prediction-tracker`, `probability-calibration`, `sports-data-preflight`, `sports-skill-router`, `visualization`, `walk-forward-validation`.
+The analytics skills: `backtesting`, `data-pipeline`, `elo-engineering`, `feature-engineering`, `market-vs-model`, `model-building`, `nl-to-query`, `odds-market-analysis`, `prediction-tracker`, `probability-calibration`, `season-pack-offline`, `sports-data-preflight`, `sports-skill-router`, `visualization`, `walk-forward-validation`.
 
 All nine sports' skills live in [sports-data-hq/sportsdatahq-skills](https://github.com/sports-data-hq/sportsdatahq-skills). The copies here are synced from there, so please open issues and pull requests there.
 
