@@ -1,5 +1,7 @@
 # BirdieAPI MCP server
 
+[![BirdieAPI MCP connector](https://glama.ai/mcp/connectors/io.github.noahowsh/birdieapi/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.noahowsh/birdieapi)
+
 [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-0b7285?style=flat-square)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.noahowsh/birdieapi)
 
 **The golf data API.** PGA Tour leaderboards with finishing positions, earnings and points, round scores and hole-by-hole scorecards, courses with par and yardage per hole, player and course history, our own strokes-versus-field rating, par-3/4/5 scoring splits and the winner prices of the four men's majors by sportsbook. The LPGA, LIV, the DP World Tour and the Korn Ferry Tour use the same tools. REST API and MCP server. 500 free credits every month, no card.
