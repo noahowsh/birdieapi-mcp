@@ -160,7 +160,7 @@ Before handing features to `model-building`, audit every feature:
 2. Does it use data from after the game being predicted? -> Leakage
 3. Was `.shift(1)` applied before any rolling calculation? -> If no, leakage
 4. Were season-level stats lagged? -> If no, leakage
-5. Is a model value (xG, expected points, win probability) fitted on all history? -> Leakage in a backtest. Soccer has `xg_point_in_time` on get_events and get_shot_map, fitted only on earlier seasons: use it instead of `xg`.
+5. Is a model value (xG, expected points, win probability) fitted on all history? -> Leakage in a backtest. Soccer has `xg_point_in_time` (get_events, get_shot_map) and basketball has `expected_points_point_in_time` (get_plays, get_shot_chart), each fitted only on earlier seasons: use them instead of `xg` and `expected_points`.
 
 See `feature-catalog.md` for the full recommended feature list with leakage risk ratings.
 
