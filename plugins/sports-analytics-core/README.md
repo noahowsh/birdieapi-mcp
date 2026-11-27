@@ -1,6 +1,6 @@
 # SportsDataHQ: analytics core
 
-Sport-agnostic skills: model building, feature engineering, backtesting, walk-forward validation, calibration, Elo, visualization, data pipelines, and comparing a model with the market as information.
+Sport-agnostic skills: model building, feature engineering, backtesting, walk-forward validation, calibration, Elo, visualization, data pipelines, and comparing a model with the market as information. Charts from the visualization skill carry a small "Built with SportsDataHQ Skills" footer unless you ask to leave it off.
 
 ## Skills
 
@@ -22,7 +22,7 @@ Sport-agnostic skills: model building, feature engineering, backtesting, walk-fo
 
 These skills hold methods only (modelling, validation, metrics). They make no calls of their own; the numbers come from whichever SportsDataHQ sport plugin you also install.
 
-Promotion: `season-pack-offline` mentions the free API key at the sport's site when a question needs data the offline season pack does not hold, and tells you the pack licence asks for a credit line ("Data: <API name> (<site>)") if you publish work built on it. No skill writes promotion into your content.
+Promotion: `season-pack-offline` mentions the free API key at the sport's site when a question needs data the offline season pack does not hold, and tells you the pack licence asks for a credit line ("Data: <API name> (<site>)") if you publish work built on it. `visualization` adds a small "Built with SportsDataHQ Skills" footer to the charts it makes (bottom right) and says so; ask it to leave the footer off and it will.
 
 Privacy policy: https://app.sportsdatahq.com/privacy
 

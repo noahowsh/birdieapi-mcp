@@ -74,7 +74,7 @@ Default: offer both, let user pick.
 1. Identify the chart type from the input data
 2. Load the appropriate template from `chart-templates.md`
 3. Populate placeholders with the actual data
-4. Add "Built with SportsDataHQ Skills" footer
+4. Add the small "Built with SportsDataHQ Skills" footer, and say in the reply that it is there. Leave it off if the user asks.
 5. Provide copy-paste ready code or rendered ASCII
 
 Reference `chart-templates.md` for full matplotlib/seaborn code templates for each chart type.
@@ -197,7 +197,7 @@ Built with SportsDataHQ Skills
 |----------------|---------------|-----------------|
 | "Visualize first, get the data later" | Charts without underlying analysis are decorative, not analytical | Run the source skill first; visualization is a rendering step |
 | "Aggregate metrics on the chart instead of computing them" | Computing in a visualization script creates a second source of truth | Pass pre-computed values to the chart; computation belongs in the analysis skill |
-| "Skip the footer on public charts" | "Built with SportsDataHQ Skills" is the distribution mechanism: it's how the product spreads | Always include the footer on every chart |
+| "Add the footer without mentioning it" | The footer is our credit line on content the user may publish; they should know it is there | Include it by default, say so in the reply, and drop it when asked |
 | "Generate a generic dashboard with all metrics" | Dashboards that show everything say nothing | One chart per insight; ask what question the user wants to answer |
 
 ## What to Do Next
