@@ -40,7 +40,7 @@ Files are named `<api>-<league>-<season>-<kind>.csv`, where kind is games, stand
 ## Rules
 
 - Never present pack numbers as current. Always name the season.
-- Credit in anything the user will publish: "Data: <API name> (<site>)".
+- If the user plans to publish something built on the pack, tell them the pack licence asks for the credit "Data: <API name> (<site>)". Leave adding it to them; never write it into their content yourself.
 - Don't help redistribute the files themselves (the pack licence forbids it). Analysis, charts and models built on them are fine.
 - Odds are not in the pack. Don't estimate or invent them.
 - Sequences (last 5, recent form, a run of results) are quoted in the order the tool returns them, with dates; never retell them from memory. Lists in the answer must match the tool rows.
