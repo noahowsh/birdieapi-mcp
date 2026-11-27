@@ -1,7 +1,7 @@
 {
   "name": "golf-data",
   "displayName": "BirdieAPI: golf skills",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Golf analysis skills on BirdieAPI: game previews, player and team research, and the community's standard metrics, with every number pulled live from the BirdieAPI MCP server.",
   "author": {
     "name": "SportsDataHQ",
